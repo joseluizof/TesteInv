@@ -1,0 +1,1964 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'pt' Physical Memory: 24420 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Rondi/OneDrive/Bureau/create with/NewProject/TesteInv/inv
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59961
+Successfully changed project path to: C:/Users/Rondi/OneDrive/Bureau/create with/NewProject/TesteInv/inv
+C:/Users/Rondi/OneDrive/Bureau/create with/NewProject/TesteInv/inv
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22568] Host "[IP] 26.138.81.184 [Port] 0 [Flags] 2 [Guid] 3654039343 [EditorId] 3654039343 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RN934PL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22568] Host "[IP] 26.138.81.184 [Port] 0 [Flags] 2 [Guid] 3654039343 [EditorId] 3654039343 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RN934PL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 25.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Rondi/OneDrive/Bureau/create with/NewProject/TesteInv/inv/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.023438 seconds.
+- Loaded All Assemblies, in  1.170 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.980 seconds
+Domain Reload Profiling: 2147ms
+	BeginReloadAssembly (241ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (201ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (134ms)
+	LoadAllAssembliesAndSetupDomain (551ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (548ms)
+			TypeCache.Refresh (546ms)
+				TypeCache.ScanAssembly (511ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (980ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (756ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (23ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (534ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Unloading broken assembly Assets/Opsive/Shared/Editor/UIElements/Opsive.Shared.Editor.UIElements.dll, this assembly can cause crashes in the runtime
+- Loaded All Assemblies, in  3.452 seconds
+Refreshing native plugins compatible for Editor in 13.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.648 seconds
+Domain Reload Profiling: 5091ms
+	BeginReloadAssembly (350ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (2902ms)
+		LoadAssemblies (2414ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (713ms)
+			TypeCache.Refresh (610ms)
+				TypeCache.ScanAssembly (563ms)
+			ScanForSourceGeneratedMonoScriptInfo (75ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1648ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1306ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (1046ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 11.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (60.0 KB). Loaded Objects now: 4189.
+Memory consumption went from 138.4 MB to 138.3 MB.
+Total: 8.406000 ms (FindLiveObjects: 0.573100 ms CreateObjectMapping: 0.555600 ms MarkObjects: 7.081500 ms  DeleteObjects: 0.194300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/AttributeUtility.cs: a716ace3a682d98d201608ab355d73d1 -> 35cd67e6ef29078ec4ef7d7a0fe4dd19
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/InspectorUtility.cs: 1cf92e4af45cb9e9886ec49564b001a9 -> e19c2853cd61f2778b8e7201df90876e
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Text.cs: f3cd2527cc0cf233b21b58a0a7d6ebc9 -> c729f6848f27e5e10271b8554c1e40e8
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Crafter.cs:  -> 9081fcf797aa3c6acd00b48aee62ecee
+  custom:scripting/monoscript/fileName/CraftingRecipeGrid.cs:  -> 47404b59f0bbd604d61512a21fdac321
+  custom:scripting/monoscript/fileName/SaverBase.cs:  -> cc5ce6f278cda4d633bf2d7eb2c318ac
+  custom:scripting/monoscript/fileName/ItemRestrictionSetObject.cs:  -> f2cdeac577ae881712c238f53a30ba94
+  custom:scripting/monoscript/fileName/DisplayPanelManagerHandler.cs:  -> 41039b6311360ffaac8d99caa1f0fc07
+  custom:scripting/monoscript/fileName/ItemViewSlotRestriction.cs:  -> ac77e676cc4c73d03ee23c581cc98432
+  custom:scripting/monoscript/fileName/RangeAttackBullet.cs:  -> 091f35cad39348838b7456ca92920b97
+  custom:scripting/monoscript/fileName/MainMenu.cs:  -> 34900bd8e4eba49423517705ff13839c
+  custom:scripting/monoscript/fileName/ValueToColorAttributeView.cs:  -> 829e9951fb1e5e322cd6965dd08ef476
+  custom:scripting/monoscript/fileName/MoveToCollectionItemAction.cs:  -> 6cd9b70b31a1d0fddb2eaa4a07cbde66
+  custom:scripting/monoscript/fileName/ItemActionBindingItemViewModule.cs:  -> 910d136f59fef73df51dec8ccec3d6a2
+  custom:scripting/monoscript/fileName/InventoryGridIndexDataSaver.cs:  -> 1b7f152fc771553be977e6b593782897
+  custom:scripting/monoscript/fileName/VirtualControlsManager.cs:  -> e32bb747c3a772f339f83fd21ab9da3a
+  custom:scripting/monoscript/fileName/ItemAction.cs:  -> 5dbcdeb2ab9fa5198d6bb3c95ac14649
+  custom:scripting/monoscript/fileName/ItemViewDropInventoryGiveAction.cs:  -> 4d1ec649d8ca9429949c7ec43eae8c2f
+  custom:scripting/monoscript/fileName/ItemViewDropContainerSmartExchangeAction.cs:  -> 416844a75d3d307d2a64b1e1f0dffcd8
+  custom:scripting/monoscript/fileName/CurrencyAmounts.cs:  -> ed0683b189d2d8dcee1758ef03abd399
+  custom:scripting/monoscript/fileName/GridNavigatorWithScrollbar.cs:  -> 3741e5c602413afb126db96def630f87
+  custom:scripting/monoscript/fileName/ItemInfoGridSorterBinding.cs:  -> a88938c68e842dfc61432b4db3aa6fdc
+  custom:scripting/monoscript/fileName/AttributeViewForItemViewModule.cs:  -> 851365fa1cd7f18e433838d184133206
+  custom:scripting/monoscript/fileName/ItemCollectionStackSizeRestriction.cs:  -> d521b02d4f6c88685065f496a27f0a3f
+  custom:scripting/monoscript/fileName/ItemShapeDropPreviewItemView.cs:  -> fe77a92004514be724468b1eaae0defa
+  custom:scripting/monoscript/fileName/RandomInventoryPickup.cs:  -> 28bfccb8c43db10a7b1bc55968e3624a
+  custom:scripting/monoscript/fileName/ItemCategoryRegister.cs:  -> 6119df4ddaa3419f04c445d7cbeffe93
+  custom:scripting/monoscript/fileName/ItemViewDropItemAmountCondition.cs:  -> 79faa441730f9c4fbf60776beea13707
+  custom:scripting/precompiled-assembly-types:Opsive.Shared:  -> fe0c8ee355b7a9ec51b32ed8080b79b4
+  custom:scripting/monoscript/fileName/Attribute.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/precompiled-assembly-types:Opsive.Shared.Events:  -> b183878cf39c2b4a7a7888ec00d55bfc
+  custom:scripting/monoscript/fileName/IPlayerInput.cs:  -> af9a3f4a48761e60e58cab7db894c041
+  custom:scripting/monoscript/fileName/ItemUpgradePanel.cs:  -> 3987c5ad4a0d93c363315d1dec4b7967
+  custom:scripting/monoscript/fileName/OnValidateUtility.cs:  -> 2546748804143c49cbed8c270c98cd91
+  custom:scripting/monoscript/fileName/ItemObjectBehaviour.cs:  -> 6cdf04a9f6b9a69e3a15e0ddb1d54b52
+  custom:scripting/monoscript/fileName/NameItemView.cs:  -> e6228c109d8de8fe413438212734bcb4
+  custom:scripting/monoscript/fileName/DisplayPanelDragHandler.cs:  -> 35c148a7850174e06891ffdf16e84646
+  custom:scripting/monoscript/fileName/EnableDisableInventoryInput.cs:  -> 9cd965b3ccbf0b74873cd6c4c0a75ae6
+  custom:scripting/monoscript/fileName/GeneratedStubTypes.cs:  -> 9c20b8baa831164e21c7cf7990c4ddee
+  custom:scripting/monoscript/fileName/ItemAdderRemover.cs:  -> 7f1faadc8c4682d5f425b7ef7dedf296
+  custom:scripting/monoscript/fileName/RelativeTooltip.cs:  -> cd48137328fcc657f9640214274ab61f
+  custom:scripting/monoscript/fileName/ItemShapeRectPlacerItemView.cs:  -> ab0c0ca523a87e4deb99a27a9d70407c
+  custom:scripting/monoscript/fileName/ItemShape.cs:  -> ed7f6de3e0585780bdb476ad099ee6b1
+  custom:scripting/monoscript/fileName/MeleeAttack.cs:  -> e2133ffd9a4726f898ee2eeb94beb5ad
+  custom:scripting/monoscript/fileName/FirstOutputRecipeView.cs:  -> 34ea898b1610c782a6f226c507dabf57
+  custom:scripting/monoscript/fileName/CurrencyRegister.cs:  -> 79f950fecec4dc0861fdb8820515348c
+  custom:scripting/monoscript/fileName/CraftingProcessor.cs:  -> ccac8d3e06b923e9b07758c736824312
+  custom:scripting/monoscript/fileName/AmountItemView.cs:  -> 21324a0af222e35e824bc51d4a8a6940
+  custom:scripting/monoscript/fileName/IObjectAmounts.cs:  -> 59d515ddb561109d007cbbbb1afa510d
+  custom:scripting/monoscript/fileName/ItemView.cs:  -> ead0117a7c50a4078d98e4c7ca1d472e
+  custom:scripting/monoscript/fileName/InventoryPanelOpener.cs:  -> 1771aa3f56175d68d9c94ef8b9fc0932
+  custom:scripting/monoscript/fileName/ItemAmountProbabilityTable.cs:  -> 27a4c72d02ff34614c6da3ea2055e84f
+  custom:scripting/monoscript/fileName/DemoCompareAttributeView.cs:  -> 235b0cc11009a5179bb331eeb057d27f
+  custom:scripting/monoscript/fileName/ItemViewSlot.cs:  -> b9db6ed7ee1eeb8a692bb799fcb72116
+  custom:scripting/monoscript/fileName/ItemViewSlotContainerItemActionHandler.cs:  -> b4faf78692901ae77a85f9a0339f63da
+  custom:scripting/monoscript/fileName/InventoryInput.cs:  -> 60cdb382244fb35e9e921d4479f4d25d
+  custom:scripting/monoscript/fileName/ItemInfoCategoryFilter.cs:  -> d5fadf8d6d359004d80ab0086c7c5e31
+  custom:scripting/monoscript/fileName/AudioManager.cs:  -> 026632d8a9e26c75fe73e1e89494b47b
+  custom:scripting/monoscript/fileName/ViewModule.cs:  -> e6b61122ad7fa153c505de5035d7a676
+  custom:scripting/monoscript/fileName/ItemCollectionCategoryRestriction.cs:  -> 65e4a26d41d001af01f6ba25bdf560fa
+  custom:scripting/monoscript/fileName/ItemActionSet.cs:  -> 325d480714fcf7af39e88cacf426e2d8
+  custom:scripting/monoscript/fileName/DragOffView.cs:  -> c3b934149fd87a5fed3265dbf69e50bd
+  custom:scripting/monoscript/fileName/GridBase.cs:  -> 4ce056ce7e1f489d499fe2b39a09ad58
+  custom:scripting/monoscript/fileName/ButtonsOpenPanel.cs:  -> 3a3e97a73fda46c46405a89ab805adfa
+  custom:scripting/monoscript/fileName/IInventoryDependent.cs:  -> 873af99eaf6970148e560609ae4359e5
+  custom:scripting/monoscript/fileName/QuantityPicker.cs:  -> d0774b466fc5faeafd73e6cfefd8cb71
+  custom:scripting/monoscript/fileName/CurrencyPickup.cs:  -> 4de7b1ee254f1b920525d9ebf1939aeb
+  custom:scripting/monoscript/fileName/CraftingOutput.cs:  -> 7d53a2dab3e6f4a70171da2c4fcfa009
+  custom:scripting/monoscript/fileName/IterationHelper.cs:  -> 2e97d36a9c2c70be2465a2e2b5b69c42
+  custom:scripting/monoscript/fileName/InventoryStandardInput.cs:  -> 2ed12c18299ae028aefd999a927d298f
+  custom:scripting/monoscript/fileName/DemoEventNames.cs:  -> faf4a8fb9a7ce1381efd4c500a986c98
+  custom:scripting/monoscript/fileName/InspectorDrawerUtility.cs:  -> b4045e62c230ce0fc155b962b0f164a3
+  custom:scripting/monoscript/fileName/MoveItemAction.cs:  -> cc7a3731dce5cad4f0f05841f8df4502
+  custom:scripting/monoscript/fileName/ItemViewDropSpawnItemObjectAction.cs:  -> d66416232702c3fcf70dd40db480625e
+  custom:scripting/monoscript/fileName/ItemPickup.cs:  -> f6e2e374e7aa4d906b710c79095e61e0
+  custom:scripting/monoscript/fileName/CategoryAttributeViewSetItemViewModule.cs:  -> 49f68ebaf4f8e3961827ae41016880bd
+  custom:scripting/monoscript/fileName/Equipper.cs:  -> bea8ec5ac01fdf03fa9f7a02fdf7e741
+  custom:scripting/monoscript/fileName/ImageAndText.cs:  -> 85264d783b6ee6eebc97c3a61b590e76
+  custom:scripting/monoscript/fileName/DemoThrowItemAction.cs:  -> 468fd16ade5e924ae53a82f1ddb2757a
+  custom:scripting/monoscript/fileName/ActiveInputEvent.cs:  -> 73b0d3341ea498f14e3448a25adf21e0
+  custom:scripting/monoscript/fileName/ItemViewDropActionToItemAction.cs:  -> faf8f2971fdcfe7eeed011c923efff55
+  custom:scripting/monoscript/fileName/ItemViewDropFromItemCollectionCondition.cs:  -> 43c3d502dc8b83dc418ca246d8ee5f97
+  custom:scripting/monoscript/fileName/CraftingIngredients.cs:  -> 6c1ae06facf7d350620857f0c3bae3df
+  custom:scripting/monoscript/fileName/EquipperBase.cs:  -> 4d06ef13963cbfbf8d3d6137109b9248
+  custom:scripting/monoscript/fileName/EventNames.cs:  -> 000072928fd07eb4626070bdac2fa09c
+  custom:scripting/monoscript/fileName/RecipeView.cs:  -> fd60a8d47635ef6cd8e414444f6bedfc
+  custom:scripting/monoscript/fileName/CraftingRecipeViewDrawer.cs:  -> 9a8060c0c7f195f8ad375f788dec5b62
+  custom:scripting/monoscript/fileName/InterfaceUtility.cs:  -> 239ba099b978756c0b0cdc83fac2de50
+  custom:scripting/monoscript/fileName/ItemCategoryAttributeCollection.cs:  -> 8191f73a413f2b7a259ff9089b7d6158
+  custom:scripting/monoscript/fileName/ItemViewDropContainerCanMoveCondition.cs:  -> 4ce47f2e4429a01c2b9a352ee991f682
+  custom:scripting/monoscript/fileName/TabControl.cs:  -> 22500a3691ddb804df1c134ae4b96fb1
+  custom:scripting/monoscript/fileName/Interactable.cs:  -> 91bdf9f92c135862d6fc15aa9b1473da
+  custom:scripting/monoscript/fileName/VirtualTouchpad.cs:  -> a6d12a27d865a3e639fc987770f2f172
+  custom:scripting/monoscript/fileName/CraftingCategoryRegister.cs:  -> befe96dc53bce89c73ee3a0e8bdd4fa5
+  custom:scripting/monoscript/fileName/EnableDisableItemViewModule.cs:  -> 43e94d3c94a2a10153c45297fb37a61f
+  custom:scripting/monoscript/fileName/RandomCurrencyDropper.cs:  -> 495b0fa7e0f823738592b616596614a9
+  custom:scripting/monoscript/fileName/ViewSlot.cs:  -> 8e5fbff98806e5de6f801c29d976a7f8
+  custom:scripting/monoscript/fileName/ItemAttributeCollection.cs:  -> d0a14ed06e8d10e78e102eae5f6af846
+  custom:scripting/monoscript/fileName/AdjustCurrencyAmountInputField.cs:  -> a3ba8b6bcedc3696ad7fb9471cd2bcf8
+  custom:scripting/monoscript/fileName/ItemRegister.cs:  -> 37fd127305b666eab284de3293364650
+  custom:scripting/monoscript/fileName/CraftingResult.cs:  -> a5ef5958b0d52455a0069f32ea88a5c7
+  custom:scripting/monoscript/fileName/IDamager.cs:  -> 79f0b41da1f89a37cefaa4853387133c
+  custom:scripting/monoscript/fileName/InventoryMirrorHotbar.cs:  -> 0c241a3775f81c30a43964df33c76384
+  custom:scripting/monoscript/fileName/ObjectCategoryBase.cs:  -> 1ddf60c8f9bf53bffdce503feb334111
+  custom:scripting/monoscript/fileName/SaveMenu.cs:  -> 9d7b05ae86eda1c691820ca7173792e0
+  custom:scripting/monoscript/fileName/DisplayPanel.cs:  -> 65fde6afde917f28cd9b422609084929
+  custom:scripting/monoscript/fileName/DetailsItemView.cs:  -> e58bf0d1e6d488615870234c0b6b6801
+  custom:scripting/monoscript/fileName/MultiItemAction.cs:  -> 5bb96b64932f6e9add7672fc3631033c
+  custom:scripting/monoscript/fileName/CraftingMenuOpener.cs:  -> cf428428660ec8d7278e27242b9ecdc6
+  custom:scripting/monoscript/fileName/CraftingRecipe.cs:  -> 93eee83f49e3ecee67db53c118689b96
+  custom:scripting/monoscript/fileName/VirtualAxis.cs:  -> f8130b2da02a9fd4740120288560841a
+  custom:scripting/monoscript/fileName/AudioConfig.cs:  -> f6be977545f4cc89330591a4b70ea15b
+  custom:scripting/monoscript/fileName/ObjectAmounts.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/CraftingRecipeFilter.cs:  -> 9924310a8be24b1541acb9c3a0f61f83
+  custom:scripting/monoscript/fileName/ItemDefinitionAmount.cs:  -> 08f42a112cc9b215342d14081305a5ac
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerPanelBinding.cs:  -> bf474e2b00de7922a0dec66ac80c49bf
+  custom:scripting/monoscript/fileName/ItemViewSlotCategoryRestriction.cs:  -> 3c5409b7642a76930b75eb7a4ac71c4b
+  custom:scripting/monoscript/fileName/ChestLockedMessage.cs:  -> 312846cded92aa693ab71ff9fda7b0c5
+  custom:scripting/monoscript/fileName/InventoryAmountItemView.cs:  -> 3d3043c9042518eead81ba9f1743bc3d
+  custom:scripting/monoscript/fileName/AsyncFuncActionsPanel.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/EnemyRespawnerTrigger.cs:  -> 2e904be43b09c608c6ac23650b46194a
+  custom:scripting/monoscript/fileName/CharacterInput.cs:  -> ed4d745d36993266ce93147fe369d17f
+  custom:scripting/monoscript/fileName/Damageable.cs:  -> d6971aa8234571aea3c142cc817abe45
+  custom:scripting/monoscript/fileName/CraftingIngredientsWithCurrency.cs:  -> b338e131882ff6ef3ee836884e56300d
+  custom:scripting/monoscript/fileName/AsyncFuncAction.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/SaveViewModule.cs:  -> 1064e7a76e7f86dfeb94cecb99a77f26
+  custom:scripting/monoscript/fileName/ItemObjectAction.cs:  -> 6ad74afabe9a049f282e39ef1686b0f1
+  custom:scripting/monoscript/fileName/ButtonWithText.cs:  -> 7ac028a86d267ccbbb5bf6d30415a047
+  custom:scripting/monoscript/fileName/Bomb.cs:  -> 1f4a6bd0288001afc22194b40785d4e4
+  custom:scripting/monoscript/fileName/PlayAudioClipItemAction.cs:  -> 8811fb576f67860c5c63a7cc794bd03b
+  custom:scripting/monoscript/fileName/CraftingRecipeMultiFilterSorter.cs:  -> 3efad89865539d408136c72be5b121f2
+  custom:scripting/monoscript/fileName/MultiStackItemCollection.cs:  -> 8dfd17be0394ef663573ce2286e361f1
+  custom:scripting/monoscript/fileName/IconItemView.cs:  -> 3c91c0a61274362d9a647f6ed740b9f2
+  custom:scripting/monoscript/fileName/PanelDragHandler.cs:  -> a525812b36459704ceeee8975277ecf2
+  custom:scripting/monoscript/fileName/ItemActionCollection.cs:  -> 5a4ac808469cc953c313d0d64d0bcf8c
+  custom:scripting/monoscript/fileName/ItemViewDropContainerGiveAction.cs:  -> c7b5cf980b9e47f52f902f4495958ffd
+  custom:scripting/monoscript/fileName/ItemViewSlotDropActionSet.cs:  -> 7b79a8755e6d000188dd3996e61bbc15
+  custom:scripting/monoscript/fileName/DemoCharacterDamageable.cs:  -> c172dd5cea3b3225652d4075f693d2ed
+  custom:scripting/monoscript/fileName/QuantityPickerPanel.cs:  -> c9eaf4f64767da2c9fa8332c3495afcb
+  custom:scripting/monoscript/fileName/Chest.cs:  -> a723fccaf24a1183046ec1b5108a0aa3
+  custom:scripting/monoscript/fileName/SlotIndexView.cs:  -> 1e89894a226ab03926dd81b7a240e332
+  custom:scripting/monoscript/fileName/AmountUtility.cs:  -> 6757f707be0c29f80e940c2d8f2a5477
+  custom:scripting/monoscript/fileName/IActionWithSlotContainer.cs:  -> 9e9470c36fcc3a45a64856ad68e472a1
+  custom:scripting/monoscript/fileName/DisplayPanelManager.cs:  -> b2aad51e9feffa1aa6367e1354368245
+  custom:scripting/monoscript/fileName/ItemInfoProbabilityTable.cs:  -> e32caebaa9640259add907fe6241170b
+  custom:scripting/monoscript/fileName/BillboardFX.cs:  -> 4f0ec74064b121f451d80cf400947990
+  custom:scripting/monoscript/fileName/ItemInfoGrid.cs:  -> 3a30d991f26d486d0913aeeea83b673c
+  custom:scripting/monoscript/fileName/PickupBase.cs:  -> edb8a77bb20e2d301ada3d3a2df31c25
+  custom:scripting/monoscript/fileName/DefinitionRestrictionIconItemView.cs:  -> c6a4c2d4caab0d9b6cfac33c9fbd05d1
+  custom:scripting/monoscript/fileName/ICharacter.cs:  -> b7292b8a23ddc9b16424d977e028bb5b
+  custom:scripting/monoscript/fileName/ConfirmationPopUp.cs:  -> b8fef14649876bcb419e66479145e6b1
+  custom:scripting/monoscript/fileName/ItemInfoCategoryNameSorter.cs:  -> c2f1792d488631ef2a88dfb2b3c27eb7
+  custom:scripting/monoscript/fileName/InventoryItemVisualizer.cs:  -> 612ca4c6e53cd474616ea0f3fb921be2
+  custom:scripting/monoscript/fileName/ItemObjectSlot.cs:  -> 0c72f88463390072849ce0c1ee6ef82f
+  custom:scripting/monoscript/fileName/CharacterStats.cs:  -> 57ef9a8fa47723b1bd5937c7f519d3f0
+  custom:scripting/monoscript/fileName/ItemShapeGridUtility.cs:  -> 67854192df01bb3e577cf9962a9d4c01
+  custom:scripting/precompiled-assembly-types:Opsive.Shared.Inventory:  -> 61db8bd1b0f9810da9c6640f70bb6cdd
+  custom:scripting/monoscript/fileName/InventoryDatabaseUtility.cs:  -> 71fd81d888d9cf40a7115421056189c7
+  custom:scripting/monoscript/fileName/ItemSlotSet.cs:  -> 0589518194072f82ecb472fdbc33ce69
+  custom:scripting/monoscript/fileName/SettableActionElement.cs:  -> 55fcea8260502932c64e215ee4884f12
+  custom:scripting/monoscript/fileName/ItemObjectSpawner.cs:  -> 4c3782ccff1fbbeeea219ffeeb32406a
+  custom:scripting/monoscript/fileName/AssignHotbarItemAction.cs:  -> bee814bdd358df14b2ef493cdec2cc3f
+  custom:scripting/monoscript/fileName/DuplicateItemAction.cs:  -> 9c388a834853aa3ec46917c10704945b
+  custom:scripting/monoscript/fileName/Projectile.cs:  -> f74b3b205ca1d3f583a056b7cae928b0
+  custom:scripting/monoscript/fileName/ItemBinding.cs:  -> bf9cf66e848d27b7384fe85a2cafaca7
+  custom:scripting/monoscript/fileName/IViewModuleSelectable.cs:  -> a3c701206a92beef5804543edfbcfc7a
+  custom:scripting/monoscript/fileName/ItemActionPanel.cs:  -> c336c0877d2c1dcf5705c43255323923
+  custom:scripting/monoscript/fileName/SimpleCraftingProcessor.cs:  -> be7759df6d4ea7d3d85e60ad981f87f6
+  custom:scripting/monoscript/fileName/Inventory.cs:  -> 88ac0d4ef39ccffc4204d7d359c7f215
+  custom:scripting/monoscript/fileName/UseItemActionSetAttribute.cs:  -> 4366fd26d816208dd2b07c807fc6d278
+  custom:scripting/monoscript/fileName/RequiredItemDefinitionAttributeCollection.cs:  -> b2752d2b6dea4c200ac1a1f1220c3fa0
+  custom:scripting/monoscript/fileName/QuantityDropItemAction.cs:  -> 3c7a0290e1d25ca52ed285e52247a8b8
+  custom:scripting/monoscript/fileName/GlobalDictionary.cs:  -> 7af54664e4d9c157db41f831d989171a
+  custom:scripting/monoscript/fileName/ShopMenu.cs:  -> e15e4442cfa2e6e975f52b6994b7f308
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerItemActionBindingBase.cs:  -> c375dc90c9bc546e25dcfcc33cb3dfce
+  custom:scripting/monoscript/fileName/StandaloneInput.cs:  -> ffee40ba0d5a755750ad0cf6ec3cda03
+  custom:scripting/monoscript/fileName/ChestInteractable.cs:  -> bcb1b5afe4539a0e7576e40754a641fa
+  custom:scripting/monoscript/fileName/ItemViewDropHandler.cs:  -> 3e4be03eed3a33ca414c13ae1d4951da
+  custom:scripting/monoscript/fileName/InventorySaver.cs:  -> d9497a5995324b0bec271988cb9b20f1
+  custom:scripting/monoscript/fileName/CharacterStatsDisplay.cs:  -> 4446b87be478b75a04e1e66b9ee021e0
+  custom:scripting/monoscript/fileName/TextPopup.cs:  -> 9f5b7e30eaf4955eff27d8f3b776e0ea
+  custom:scripting/monoscript/fileName/InventoryObjectRegister.cs:  -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/PreventSelectableDeselection.cs:  -> c9374003cc9f06f6fccbda037cf661e5
+  custom:scripting/monoscript/fileName/ButtonAudioHandler.cs:  -> 941be3154310ccd26eb12d9fbe85acf9
+  custom:scripting/monoscript/fileName/INetworkInfo.cs:  -> df610a4e170f86e73a8b7094dc0e822b
+  custom:scripting/monoscript/fileName/MultiCurrencyView.cs:  -> 6c9a4d15e14983aa6a5035ae883beae8
+  custom:scripting/monoscript/fileName/ShopGeneric.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/InventoryGridIndexData.cs:  -> 50f791ee4b19e800361b31287c3c8dc4
+  custom:scripting/monoscript/fileName/ColorAmountItemView.cs:  -> 983d45e3b1a9db68a831602f9bd66664
+  custom:scripting/precompiled-assembly-types:Opsive.Shared.Utility:  -> c5e327af853016cabcb3a37a3928af10
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerBase.cs:  -> 9adfa176c24a16725a001132a9bbccb5
+  custom:scripting/monoscript/fileName/RemoveItemAction.cs:  -> e60190133d676ec6cb9af2e22f1a2d96
+  custom:scripting/monoscript/fileName/InventorySystemRegister.cs:  -> 28c55770e1abcc93c0ccb42fb218ea96
+  custom:scripting/monoscript/fileName/GridNavigatorBase.cs:  -> 6bc35ff8823e088df3f1501884587b47
+  custom:scripting/monoscript/fileName/ItemShapeGrid.cs:  -> 9c1764de153d5055c093b1863f4edc46
+  custom:scripting/monoscript/fileName/CurrencyExchangeRate.cs:  -> 847ba1b90eab4069855c45d74a33951f
+  custom:scripting/monoscript/fileName/ItemSlotsItemView.cs:  -> dd8f8939574387d2a6b4dc271f86ed47
+  custom:scripting/monoscript/fileName/CameraUtility.cs:  -> 67a60687b8628cdee34332c9804b0779
+  custom:scripting/monoscript/fileName/CategoryAttributeViewSet.cs:  -> 5245fe759c5a5cc737f2b85723212b14
+  custom:scripting/precompiled-assembly-types:Opsive.UltimateInventorySystem.Demo:  -> ceca9e9eb3067343950c8e274867343e
+  custom:scripting/monoscript/fileName/IInteractor.cs:  -> c088e9b2c79b8aecc3f33668e39e8bb1
+  custom:scripting/monoscript/fileName/EventSystemManager.cs:  -> b6b91c7bbf8ff8901a6b22677c5e71ff
+  custom:scripting/monoscript/fileName/ItemVisualizerBase.cs:  -> 53694d3952a30a1ce77c566020335aac
+  custom:scripting/monoscript/fileName/SaveSystemManager.cs:  -> 098af356471f3cd4490bfad41078946f
+  custom:scripting/monoscript/fileName/EventSystemIdentifier.cs:  -> 504c671d826d2f5f81e98afbd93ebe9c
+  custom:scripting/monoscript/fileName/ItemViewSlotCursorManager.cs:  -> 4dbf5a4ba3aea9c25ae87eed6bb51428
+  custom:scripting/monoscript/fileName/CraftingTabData.cs:  -> 985bb1dce1bd2c8b2c23cfe666c78b5e
+  custom:scripting/monoscript/fileName/Shop.cs:  -> dbd41a092d7ff6924c51e7b8d29ed19e
+  custom:scripting/monoscript/fileName/InventoryGridSaver.cs:  -> b44eea6a7456145c0fd17269ed122e1c
+  custom:scripting/monoscript/fileName/HpMonitor.cs:  -> ee0eb965cfda847e7f95eea0e137cbc0
+  custom:scripting/monoscript/fileName/InventorySearchFilter.cs:  -> ccfc154453a4ffbe03e96e6eea10dfc7
+  custom:scripting/monoscript/fileName/SimpleCraftingProcessorWithCurrency.cs:  -> 120f0ee4b0d50cd26b00f9326fb756d2
+  custom:scripting/monoscript/fileName/SaveMetaDataCreator.cs:  -> b19b90e5daa94748cce91343beec2323
+  custom:scripting/monoscript/fileName/DemoOpenItemAction.cs:  -> 37633968eea6b2e604c537b5a75400e3
+  custom:scripting/monoscript/fileName/ScrollbarWithButtons.cs:  -> 75919f436d885a0355bba844a57634ce
+  custom:scripting/monoscript/fileName/CharacterRotator.cs:  -> 826d227b1a60bd79703918655d561f06
+  custom:scripting/monoscript/fileName/ItemID.cs:  -> 36c8dcf90f3340c53e2866d1ac9ab746
+  custom:scripting/monoscript/fileName/ItemDropper.cs:  -> 35a1e4b4789154b78826acc5915a3ff2
+  custom:scripting/monoscript/fileName/InventoryTabData.cs:  -> 2727a95263acec31d056ab72b41dc892
+  custom:scripting/monoscript/fileName/TextControl.cs:  -> 8cc5e5879d7f2c2c5d2c3959d1d72ec9
+  custom:scripting/monoscript/fileName/StorageMenuOpener.cs:  -> c9f2ba8ad8153b0d48ea6cefb4928279
+  custom:scripting/monoscript/fileName/UpgradeMenu.cs:  -> 689293f481f7268a425ca190add43080
+  custom:scripting/monoscript/fileName/ItemViewSlotDropHandlerBinding.cs:  -> 7d5ef3887859d4fbf2a03c8e6aae4bf7
+  custom:scripting/monoscript/fileName/GridGeneric.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerSaver.cs:  -> 696a737af618ab6bdfb1c783102b1696
+  custom:scripting/monoscript/fileName/FixedScale.cs:  -> 6fcb6d1486904cdff701a7e0923b180d
+  custom:scripting/monoscript/fileName/CharacterCamera.cs:  -> a2a44fca209cc04acdcb16493a03211d
+  custom:scripting/monoscript/fileName/InventoryPickup.cs:  -> 4dc608ac93b89940d6a154af7b75d5d0
+  custom:scripting/monoscript/fileName/VirtualJoystick.cs:  -> ff1f887ccab193b5882dc051cb54eac5
+  custom:scripting/monoscript/fileName/ObjectPool.cs:  -> 8af6b0b3c4234cc9899b81aeacc87069
+  custom:scripting/monoscript/fileName/ItemActionWithConfirmationPopUp.cs:  -> 3ca9656491e36d04b594a504030d8b29
+  custom:scripting/monoscript/fileName/IItemRestriction.cs:  -> 818cc49b009632bca4aff058d2b5c1e5
+  custom:scripting/monoscript/fileName/FloatValueAttributeView.cs:  -> a8a367f9c2ac7ff648041b9885084d12
+  custom:scripting/monoscript/fileName/CraftingRecipeWithCurrency.cs:  -> 4ed059b671a401d1b261573956d82a18
+  custom:scripting/monoscript/fileName/ItemViewSlotContainerIndexedActionsHandler.cs:  -> d010cd50edb40b2d85ddeacb8faa07f7
+  custom:scripting/monoscript/fileName/ItemCategoryAmount.cs:  -> a4d642a91949eb757306a4e764f5eee6
+  custom:scripting/monoscript/fileName/ItemCollectionGroup.cs:  -> ec2d9dc09a3ae7d67715b8d7e66ff1c9
+  custom:scripting/monoscript/fileName/AutomaticProjectileSpawner.cs:  -> 83dda2cfceac91012f85b1b42d32adb7
+  custom:scripting/monoscript/fileName/ObjectPoolBaseInspector.cs:  -> 2b6d1db16e929823bbfafcd6fa321218
+  custom:scripting/monoscript/fileName/ItemViewModule.cs:  -> d240024c253b3024eea304a212a21ea9
+  custom:scripting/monoscript/fileName/GridEventSystem.cs:  -> 9b993ecf19b18eb049355f4b9367ea41
+  custom:scripting/monoscript/fileName/SaveView.cs:  -> add6b56547d16489f22cd00fce93c5f2
+  custom:scripting/monoscript/fileName/ItemCategoryAttributeNameBinding.cs:  -> 8b796d9441369bd325a54d3d96f99e5f
+  custom:scripting/monoscript/fileName/AsyncFuncActionsPanelInt.cs:  -> 8e92349258259551adda90b9ca74b6f3
+  custom:scripting/monoscript/fileName/IShop.cs:  -> 0987ed306d30c756545dbd631e0f1020
+  custom:scripting/monoscript/fileName/AttributeInfo.cs:  -> ed1e279f0df485dbd763517332d986f0
+  custom:scripting/monoscript/fileName/CurrencyOwnerGeneric.cs:  -> 6a67d7d4bb873334bf8cdc495952bf93
+  custom:scripting/monoscript/fileName/ViewDrawer.cs:  -> e546046f3e58de448073473428ce843c
+  custom:scripting/monoscript/fileName/ItemDescription.cs:  -> 78a73502c121a07f4a987f4681966462
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerItemActionBinding.cs:  -> e2da664cf063bc619a5173c8e6214adb
+  custom:scripting/monoscript/fileName/IObjectAmount.cs:  -> 790d30e110fad396c1c6eecb8b12ca4c
+  custom:scripting/monoscript/fileName/ItemInfoItemCollectionAndCategoryFilter.cs:  -> d09295890023805eca6f7c8beba7b7ea
+  custom:scripting/monoscript/fileName/SaveMetaData.cs:  -> f8f27d9f7c65433a25e3c34daef5be59
+  custom:scripting/monoscript/fileName/ItemSlotCollection.cs:  -> 6b8a860797179de35c5c5adf8d34f966
+  custom:scripting/monoscript/fileName/SimpleInput.cs:  -> 6981e3ddaab485a850c38ce25fb5a440
+  custom:scripting/monoscript/fileName/ItemViewDropContainerCanAddCondition.cs:  -> 4ea18bb9407ea95256401d06de5cee6b
+  custom:scripting/monoscript/fileName/AudioClipSet.cs:  -> 2a5876e586e1e963dc8a0e2d171552e6
+  custom:scripting/monoscript/fileName/AmountComparisonItemView.cs:  -> 481830938949d1ca4b89ddcd2eccf483
+  custom:scripting/monoscript/fileName/ItemViewSlotMoveCursor.cs:  -> 579d7d1dccdc3c4d746e6e06ded362a0
+  custom:scripting/monoscript/fileName/ItemDescriptionBase.cs:  -> fe9340fd9be7272babbabd40249677b5
+  custom:scripting/monoscript/fileName/UnityInputBuilder.cs:  -> 0eafc1f2f8ae6a41bc306cc1a5f2eb8b
+  custom:scripting/monoscript/fileName/ValueToColorItemView.cs:  -> 9ec82975c500b731f4130ce5334d748d
+  custom:scripting/monoscript/fileName/CategoryRecipeViewSet.cs:  -> 69177fce422b535d257d254d09ffe8b2
+  custom:scripting/monoscript/fileName/RequiredItemAttributeCollection.cs:  -> 6a45f265a3509671c2c02acd9fe536c6
+  custom:scripting/monoscript/fileName/PlayerInput.cs:  -> 9096a08038bedc7332664c9fdbaa7c09
+  custom:scripting/monoscript/fileName/ICamera.cs:  -> 64b9e95bda5b1b583c0d21bd366a7631
+  custom:scripting/monoscript/fileName/ItemDefinitionAmounts.cs:  -> 22567a82d853ffa7293ce86bb4f25e14
+  custom:scripting/monoscript/fileName/ICharacterMover.cs:  -> 6012aad0070a68912d4b0b5b606c0d68
+  custom:scripting/monoscript/fileName/ItemCollectionStackAmountRestriction.cs:  -> 90679d80738ec66a838de68cbde071b3
+  custom:scripting/monoscript/fileName/SelectImageView.cs:  -> 23b5074c97f0c5e3e2a905c190a03009
+  custom:scripting/monoscript/fileName/InspectorDrawer.cs:  -> 2a09cf4fb728079b10bf0ca5a572ffd1
+  custom:scripting/monoscript/fileName/CooldownItemView.cs:  -> 907fd0de7ed0b5711d85796614d3906e
+  custom:scripting/monoscript/fileName/DisplayPanelCloser.cs:  -> a86a3006ea2308e7b33ea89207f0b311
+  custom:scripting/monoscript/fileName/AttributeBase.cs:  -> 2341d5e71c206f64eff94aaede707c2d
+  custom:scripting/monoscript/fileName/LockedChest.cs:  -> 8fc3e46903236646218f93b9a3c6c872
+  custom:scripting/monoscript/fileName/IDatabaseSwitcher.cs:  -> 5d53b695745991ff23bc0f7efc276dac
+  custom:scripting/monoscript/fileName/ItemHotbarHandler.cs:  -> 29b4be3e3955bd49e564b7c5dc28ff30
+  custom:scripting/monoscript/fileName/ItemInfoItemCollectionFilter.cs:  -> 572da9324d987de98d691bb8f4bd1c69
+  custom:scripting/monoscript/fileName/DestroyOnStart.cs:  -> fc04b7d58043ebc8ae568483da359645
+  custom:scripting/monoscript/fileName/AdditionalUnitOptions.cs:  -> 1c76992e48f06649fd6e5eed7401fd8b
+  custom:scripting/monoscript/fileName/InventoryGrid.cs:  -> dd7a574caa6b658dbe3eecf5062fcde7
+  custom:scripting/monoscript/fileName/ChestMenu.cs:  -> 6e362250bd241e7ffa2ec9e1f0bd8a16
+  custom:scripting/monoscript/fileName/ActionButton.cs:  -> c7f5cf1a2b86b46b1cbfbb613b616de0
+  custom:scripting/monoscript/fileName/InventorySystemFactory.cs:  -> 40e869418046c983302ff78e7db52021
+  custom:scripting/monoscript/fileName/Character.cs:  -> 9bf111c30b2732ddf3600c90729675b8
+  custom:scripting/monoscript/fileName/ItemViewSlotContainerDescriptionBinding.cs:  -> 19c5fa1aa9ff5cffa2711f751a2848aa
+  custom:scripting/monoscript/fileName/VirtualControl.cs:  -> ecae66a4ff94f68fde22bd6a583d30e8
+  custom:scripting/monoscript/fileName/InspectorBase.cs:  -> 3308bd0b9679e9226f64f8f73226d6a7
+  custom:scripting/monoscript/fileName/AttributeBinding.cs:  -> 55752cfa8b317f32d7ca301a8c26229e
+  custom:scripting/monoscript/fileName/GridBinding.cs:  -> 158509f6fa33433a0cacb087c0a90b22
+  custom:scripting/monoscript/fileName/InspectorStyles.cs:  -> e9cdea99fcabd46f0a758f679b8b505f
+  custom:scripting/monoscript/fileName/IItemObjectBehaviourHandler.cs:  -> faa2ebfd0265b6a3a65551fed0628c5c
+  custom:scripting/monoscript/fileName/InventoryGridIndexer.cs:  -> 418d7d76d2da0e25951ba0f9bb98af49
+  custom:scripting/monoscript/fileName/InventoryIdentifierRegister.cs:  -> 31572503afb4458d2f7081c5ff5259f5
+  custom:scripting/monoscript/fileName/RecipePanel.cs:  -> e3950d187f7de94de13e29b8f3dcc5b5
+  custom:scripting/monoscript/fileName/InventoryGridSorterDropDown.cs:  -> 74bb9c237687eeef72f224e77aaebeed
+  custom:scripting/monoscript/fileName/LayoutGroupNavigation.cs:  -> 518c6d259ca02544ac2fd1f08b83f073
+  custom:scripting/monoscript/fileName/VirtualInput.cs:  -> 5ee8d270a7fd6f8b164d9af4f11c6dfc
+  custom:scripting/monoscript/fileName/InventoryMonitor.cs:  -> c66df1ae185c39143214def3a073b02f
+  custom:scripting/monoscript/fileName/CurrencyView.cs:  -> d1b5ab9576c8ddd25497cbf5efd649fa
+  custom:scripting/monoscript/fileName/EquippedSelectItemView.cs:  -> 9c385e40f2c0d9f72c750c6f11e3f3b3
+  custom:scripting/monoscript/fileName/IInventorySystemDatabase.cs:  -> 6192b2fd2bb1f8fe753f699c0607d265
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainer.cs:  -> 4e9f15982d58cbc98de5556ee2101514
+  custom:scripting/monoscript/fileName/ItemDefinitionAmountsWithCategory.cs:  -> 19c451cb4786f70917e12a9f72c4d6f0
+  custom:scripting/monoscript/fileName/IEnumerableHelper.cs:  -> 982fef94b6e25b1cbbe27c8cc7e397fe
+  custom:scripting/monoscript/fileName/DynamicInventorySizeInventoryGridBinding.cs:  -> 225099ae292448c2a90965909248ad4c
+  custom:scripting/monoscript/fileName/GridPanel.cs:  -> 16f178b777af38d348d01682e3ff86b3
+  custom:scripting/monoscript/fileName/TextPanel.cs:  -> 266da4c24f83883daf5a71bda381707a
+  custom:scripting/monoscript/fileName/ItemAmounts.cs:  -> 8e101b42faa848549ad4cbf9c4544be2
+  custom:scripting/monoscript/fileName/ItemShapeGridData.cs:  -> 18ad741cc429bab66ae6b715293d834f
+  custom:scripting/monoscript/fileName/ItemRestrictionObject.cs:  -> 710dc0236a9a2c5063c808fde1bcbf65
+  custom:scripting/monoscript/fileName/InputEvent.cs:  -> 84f0882eb8894e7e4903eb939434244b
+  custom:scripting/monoscript/fileName/InventorySystemManagerItemSaver.cs:  -> 02a9b867a9edb83cd38f2c7aaf068c1e
+  custom:scripting/monoscript/fileName/CategoryItemActionSet.cs:  -> 0a99eb397619cec3eade6145e58e6b14
+  custom:scripting/monoscript/fileName/DropHoverIconPreviewItemView.cs:  -> d77062242aa605cd29a4db767f485a2d
+  custom:scripting/monoscript/fileName/IInteractorWithInventory.cs:  -> 3215c52ca2fcd0be0084144ddd663c16
+  custom:scripting/monoscript/fileName/CharacterNavMeshMover.cs:  -> da850b698470891bb9548f9bfae4c654
+  custom:scripting/monoscript/fileName/GateDoor.cs:  -> fb0430b8768ebf5d462699588651fcab
+  custom:scripting/monoscript/fileName/ItemObjectBehaviourLogItem.cs:  -> 40720b23886b35d3752e662d54070cb9
+  custom:scripting/monoscript/fileName/DomainResetter.cs:  -> 676727fb9bac14e9fe50c1cae479cb85
+  custom:scripting/monoscript/fileName/AttributeItemView.cs:  -> d6e428b49d84c965458c0af3ecc33c2f
+  custom:scripting/monoscript/fileName/ItemInfoNameSorter.cs:  -> db486954ba5cad39ef6719870d22bbd7
+  custom:scripting/monoscript/fileName/LayerMaskExtension.cs:  -> 7564519eabc97e2ab51837f00e7f6c54
+  custom:scripting/monoscript/fileName/CurrencyOwnerSaver.cs:  -> 69e467d5612cfc998d248fcd1a89fcbb
+  custom:scripting/monoscript/fileName/ItemInfoMultiFilterSorter.cs:  -> 08547831d963f14444b9456de173553f
+  custom:scripting/monoscript/fileName/ItemViewSlotDefinitionRestriction.cs:  -> 6837217f8bdaa1b68d70953cc7f24971
+  custom:scripting/monoscript/fileName/ItemDefinitionAttributeCollection.cs:  -> d5a33085d914968fd5aec502475dd366
+  custom:scripting/monoscript/fileName/ItemCategoryWithString.cs:  -> 9d7ef96d4111396c5952c93a0d160009
+  custom:scripting/monoscript/fileName/AttributeViewModule.cs:  -> f5a9a9d002c1fc5b2862691023c9eb4a
+  custom:scripting/monoscript/fileName/CategoryItemViewSet.cs:  -> 6592557ddc422ae687af35e0f6e04892
+  custom:scripting/monoscript/fileName/GridNavigator.cs:  -> 3b9e3b78aa3d3e59137061857f067a56
+  custom:scripting/monoscript/fileName/ShopAddRemoveBinding.cs:  -> a8075bd8aca1ee3a3b5cda9961373ff4
+  custom:scripting/monoscript/fileName/ItemViewSlotContainerNamedItemActionHandler.cs:  -> 3e3c46c6b74abdf33da2f9f997872750
+  custom:scripting/monoscript/fileName/ItemInfoAttributeValueSorter.cs:  -> d7adf5865eeab9eda22908c02f603612
+  custom:scripting/monoscript/fileName/ItemViewShapeDropAction.cs:  -> e94e285196a5edd6f24b4e600265936a
+  custom:scripting/monoscript/fileName/DebugItemObjectAction.cs:  -> 04bbff3eb4f07ade6cf0ef290b6f96b1
+  custom:scripting/monoscript/fileName/DemoCharacterEquipper.cs:  -> 3b3afeb2f9585f5f2d8a819dd0450f74
+  custom:scripting/monoscript/fileName/AudioConfigInspector.cs:  -> 23502b63d3717076c8922e405013b672
+  custom:scripting/monoscript/fileName/InventorySystemManager.cs:  -> 3d1410eea9a6c3be71978b2a9e50ba41
+  custom:scripting/monoscript/fileName/ItemObjectVisualizer.cs:  -> 9367234d6cc912dc7eea2bd6684b243d
+  custom:scripting/monoscript/fileName/IInventory.cs:  -> 3adc62fa688c4696d67f7fda8b9301f3
+  custom:scripting/monoscript/fileName/DynamicInventorySize.cs:  -> 4e9ee04a40c3f786b61e3d322bf47708
+  custom:scripting/monoscript/fileName/ItemUser.cs:  -> 83221539b3868475085bc7107e6a3581
+  custom:scripting/monoscript/fileName/IObjectWithID.cs:  -> 97b62cb038de0b000e2f8facc584831b
+  custom:scripting/monoscript/fileName/ItemActionWithAsyncFuncActionPanel.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ItemShapeSelectedItemView.cs:  -> 8166571d802d6e9ef148ac5cccff0208
+  custom:scripting/monoscript/fileName/ItemSlotCollectionView.cs:  -> b96d843e87db50d27cb200ad0beb29f2
+  custom:scripting/monoscript/fileName/ItemOverflowActionWithItemAction.cs:  -> 7e242f1f4857741cda68ea87645e4485
+  custom:scripting/monoscript/fileName/BasicSaveMetaDataCreator.cs:  -> 4607241158fb8f481c7c786d2a4f3c1b
+  custom:scripting/monoscript/fileName/PartOfOtherContainerItemView.cs:  -> 688f2323face5e2291b8a8a940eab445
+  custom:scripting/monoscript/fileName/TabToggle.cs:  -> a0c734e79726f077522cd90acee04e77
+  custom:scripting/monoscript/fileName/Currency.cs:  -> eb53618fa52503ceec1aeb9521bf40ac
+  custom:scripting/monoscript/fileName/AttributeView.cs:  -> e73cd103d893e87a62d2788629364118
+  custom:scripting/monoscript/fileName/CustomAttributes.cs:  -> 1c446a03dfd53f5faea082b16c776d13
+  custom:scripting/monoscript/fileName/UnAssignHotbarItemAction.cs:  -> fcab3d24b852d4d6c4c419ba5f4d0e4b
+  custom:scripting/monoscript/fileName/OpenOtherItemViewSlotContainerItemAction.cs:  -> 3081d9efe182daca797e3759366336ed
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerItemAction.cs:  -> 727e36be1fce9a81613c410b397a1051
+  custom:scripting/monoscript/fileName/ItemViewDropNullItemCondition.cs:  -> 343ea78e7d44fdbd93007bdced7d6bf6
+  custom:scripting/precompiled-assembly-types:Opsive.Shared.Game:  -> cd117dfdb9a0e2bef9be99c596b67011
+  custom:scripting/monoscript/fileName/IDamageable.cs:  -> 61019c27a80c66b2ace6c36922268007
+  custom:scripting/monoscript/fileName/GraphicRaycasterTarget.cs:  -> f50d7ebb6fa4c38d2c5578c8dc12d2b4
+  custom:scripting/monoscript/fileName/ItemStack.cs:  -> 2eb7d692657538cdddf5f59c20417a4a
+  custom:scripting/monoscript/fileName/SelectView.cs:  -> 09f9db35318d8178ca84bf92fff48cb6
+  custom:scripting/monoscript/fileName/ICategoryElement.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ItemInfo.cs:  -> 76718d1d590255e6d2f4c9187eeab79c
+  custom:scripting/monoscript/fileName/DisplayPanelBinding.cs:  -> 0ba0efdc4766787f1a2ede3ff57c730c
+  custom:scripting/monoscript/fileName/ValueToSpriteItemView.cs:  -> b1f51f268586b9b8361134b4ecb9033e
+  custom:scripting/monoscript/fileName/UsableEquippedItemsHandler.cs:  -> 85e9b4cadf1162d7769acf5c0e065335
+  custom:scripting/monoscript/fileName/IItemViewSlotsContainer.cs:  -> 3d51bb6cb2e497cf8be51293052bf86f
+  custom:scripting/monoscript/fileName/InventorySystemDatabase.cs:  -> 0c5e1fba608b65175ee1a9a6e3248498
+  custom:scripting/monoscript/fileName/DropItemAction.cs:  -> 93f251558592d9652b7a0c5956f009ac
+  custom:scripting/monoscript/fileName/ItemViewDropContainerHasNameCondition.cs:  -> da2905930581ea922a5b52915dc2e0a7
+  custom:scripting/monoscript/fileName/ItemAmountsWithCategory.cs:  -> 33b900c53699a5e558775ca386fca324
+  custom:scripting/monoscript/fileName/ItemObject.cs:  -> f0cd4ba3725667cf74bfca3de86a4997
+  custom:scripting/monoscript/fileName/SkinnedMeshStitcher.cs:  -> 4de292f9fe9c8501d49db2ad95e33584
+  custom:scripting/monoscript/fileName/ItemShapeItemView.cs:  -> c95f19e67c1bac0d5c034ceaa738aa8e
+  custom:scripting/monoscript/fileName/ConfirmCancelPanel.cs:  -> 50fb06effb56b7b8e0eda2daa9210da2
+  custom:scripting/monoscript/fileName/ItemViewDropSameContainerCondition.cs:  -> 6f9188de38f74f81cdb950524a41ff89
+  custom:scripting/monoscript/fileName/PanelOpener.cs:  -> 6fe619a2fe9cbe42b2c1a8b309bd6256
+  custom:scripting/monoscript/fileName/ItemCollection.cs:  -> bda5430197803ae7eb013472e5ffee3f
+  custom:scripting/monoscript/fileName/ItemViewSlotPanelToTooltip.cs:  -> 1613e22b5bb6a52220a8a6f7d7ce6d31
+  custom:scripting/precompiled-assembly-types:Opsive.Shared.Editor:  -> aade1a77ee9fdc57fa0443b7bea180c0
+  custom:scripting/monoscript/fileName/SettableActionPanel.cs:  -> d824fb0aed2bb2d8a3be25ee14ba2b7d
+  custom:scripting/monoscript/fileName/DynamicItemCategory.cs:  -> 8f456ac486aa304b6946d4ebc9ccadf9
+  custom:scripting/precompiled-assembly-types:Opsive.Shared.Editor.Utility:  -> 88d33b7bbf515e04d0689c7311ff1061
+  custom:scripting/monoscript/fileName/ObjectInspector.cs:  -> 8d41c5d3709464017b2905a5ba2efbd6
+  custom:scripting/monoscript/fileName/GameObjectSaver.cs:  -> 76e454a1529de5adc8cab817ba108d06
+  custom:scripting/monoscript/fileName/CurrencyAmount.cs:  -> 4f9c535cee3a3c9379ef97926295c3fc
+  custom:scripting/monoscript/fileName/ItemDefinition.cs:  -> 50a82efc41023a44af43e343cec13a7a
+  custom:scripting/monoscript/fileName/RandomItemDropper.cs:  -> 1cd08677d646d9a3eb4c5a41d09dfe60
+  custom:scripting/monoscript/fileName/ButtonAudio.cs:  -> 1dcc7023f3754253750302637f41722a
+  custom:scripting/monoscript/fileName/PlayerInputProxy.cs:  -> ef1f93e99447083f828dc5c3df982c49
+  custom:scripting/monoscript/fileName/DemoConsumeItemAction.cs:  -> e8e9c564a6e0d24a3c5ba5fb287c3495
+  custom:scripting/monoscript/fileName/ShopInt.cs:  -> 09a6b55377c6694dbbad375fab2a74d0
+  custom:scripting/monoscript/fileName/ItemShapeGridController.cs:  -> 4fb3c5357d1090e43edc4e1b328db706
+  custom:scripting/monoscript/fileName/CurrencyOwnerMonitor.cs:  -> cd799bdb75985ab276b6110df1609141
+  custom:scripting/monoscript/fileName/DisplayPanelSelector.cs:  -> 758746ce8c33af680f89fe9f46c1d1b8
+  custom:scripting/monoscript/fileName/FilterSorter.cs:  -> db530d6d5cea3e58af59d37c22f540da
+  custom:scripting/monoscript/fileName/CraftingCategory.cs:  -> 905be3dedb339a64b31fd2641b246ccb
+  custom:scripting/monoscript/fileName/ItemAmount.cs:  -> 60350aa9a38f958d87ed5d20d890f5f2
+  custom:scripting/monoscript/fileName/InputBase.cs:  -> c25331fccb041d2ab8d28b343561a337
+  custom:scripting/monoscript/fileName/DynamicPanelOwner.cs:  -> 66b08c33bfe0c7d8650786f616695d41
+  custom:scripting/monoscript/fileName/GlobalRegister.cs:  -> c3e6bf53b07481e2434cc212841f5caf
+  custom:scripting/monoscript/fileName/CraftingMenuBase.cs:  -> 1430d5668cabf703f206c7c6f6f8e81e
+  custom:scripting/monoscript/fileName/Item.cs:  -> b2ce25298707bfd14cb6aa8c2c0c6830
+  custom:scripting/monoscript/fileName/ButtonViewSlot.cs:  -> d6d9ee14b882f79adf7d6ca1a2aad47c
+  custom:scripting/monoscript/fileName/InventoryInteractor.cs:  -> eb735380d801248a7603cf8cb20849e8
+  custom:scripting/monoscript/fileName/DisplayPanelManagerRegister.cs:  -> 5c9ea55965aec7c5ab178556cd843ace
+  custom:scripting/monoscript/fileName/EquippedItemView.cs:  -> 47f29ce941712bfe7c870b084ef3e8c9
+  custom:scripting/monoscript/fileName/CurrencyDropper.cs:  -> 5735b0baadd1b4b88fd3f1dc04cc3619
+  custom:scripting/monoscript/fileName/CurrencyCollection.cs:  -> e86a17495a2cb186a95b3033d83af451
+  custom:scripting/monoscript/fileName/ItemTransactionCollection.cs:  -> 9d9cc6272912cb12b03286bab0bbd462
+  custom:scripting/monoscript/fileName/IInteractable.cs:  -> 0212de470c615227609406d82147c39c
+  custom:scripting/monoscript/fileName/IActionWithPanel.cs:  -> 804c43d2f432887e6cab56f0d097808e
+  custom:scripting/monoscript/fileName/CraftingRecipeRegister.cs:  -> d655b6796ef7670cf25cb1e9dbd705db
+  custom:scripting/monoscript/fileName/ItemOverflowAction.cs:  -> 0146e68d167c985583d98389e1b34968
+  custom:scripting/monoscript/fileName/SaveDataInfo.cs:  -> bac72f7cd3a0ff7fcf23678bd419074b
+  custom:scripting/monoscript/fileName/ItemViewSlotCursorManagerRegister.cs:  -> 24e2f049019270628e665f49436dd565
+  custom:scripting/monoscript/fileName/UpgradableItemDescription.cs:  -> 707e8a406b1fc106f859147c768ae200
+  custom:scripting/monoscript/fileName/MenuInteractableBehavior.cs:  -> 60ff73e97adbf5e9c3aea41d4669319b
+  custom:scripting/monoscript/fileName/GridNavigatorWithScrollView.cs:  -> 362bfaf62aeb26989bca16c7ac276974
+  custom:scripting/monoscript/fileName/IntAttributeItemView.cs:  -> 7c7dc2f990051b1092436087dae69837
+  custom:scripting/monoscript/fileName/Dropper.cs:  -> c20758dc1a95617c88601492b6803e23
+  custom:scripting/monoscript/fileName/ItemDefinitionRegister.cs:  -> 9bf5c259d66cb1c746a83d19a6e7a3b6
+  custom:scripting/monoscript/fileName/ItemActionWithQuantityPickerPanel.cs:  -> 6252202a53af71f82d6086062390c9df
+  custom:scripting/monoscript/fileName/ItemCategory.cs:  -> 5663a7390b4cb9adfc07336129cc279d
+  custom:scripting/monoscript/fileName/ActionPanel.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/InventoryPanelBinding.cs:  -> bb019e2702fe14d7bca71f525bbec554
+  custom:scripting/monoscript/fileName/CurrencyItemView.cs:  -> 67a8b28cde64f47691d4c82ad3138d72
+  custom:scripting/monoscript/fileName/ItemViewModuleSelectable.cs:  -> bc7f5d611998f58b8ccae70c16599b9a
+  custom:scripting/monoscript/fileName/ShopMenuOpener.cs:  -> bb3494ebfbf7d200f32c17f35fd43c4e
+  custom:scripting/monoscript/fileName/ProjectileSpawner.cs:  -> 3fc317398a53c46333d327af87c68c44
+  custom:scripting/monoscript/fileName/ValueAttributeView.cs:  -> d1a0be010b7f0babaab6ec70d342b123
+  custom:scripting/precompiled-assembly-types:Opsive.UltimateInventorySystem:  -> c7c6c8a69e5bab75fbd48ce12679a00e
+  custom:scripting/monoscript/fileName/ItemObjectBehaviourHandler.cs:  -> 48d5c6f2c9adfb01431e143321a93bbb
+  custom:scripting/monoscript/fileName/AudioManagerModule.cs:  -> d71d79a26612517f3f5a0b6be4fa7331
+  custom:scripting/monoscript/fileName/IEquipper.cs:  -> 90c7a47ab5289f752d2e4c8db148674f
+  custom:scripting/monoscript/fileName/ItemInfoAmountSorter.cs:  -> f2644475ce173f8ca3fdad6f0ff6e44a
+  custom:scripting/monoscript/fileName/SaveGrid.cs:  -> 072310f78bb6e2342a1c1a209bdda815
+  custom:scripting/monoscript/fileName/InventoryIdentifier.cs:  -> bf33bb530718c3c52a56c247b4d90a8d
+  custom:scripting/monoscript/fileName/GroupItemRestriction.cs:  -> b80bfe1e45b418cdbccc2149224c120e
+  custom:scripting/monoscript/fileName/ItemViewDrawer.cs:  -> b29ac5e1d1109c60c787f56287f557ea
+  custom:scripting/monoscript/fileName/InventoryGridTabControlBinding.cs:  -> 85c70ddf4fd3c28b9ad401073806c8ea
+  custom:scripting/monoscript/fileName/AudioMusic.cs:  -> db7e6cee326f464de246c4f702242c18
+  custom:scripting/monoscript/fileName/DemoInventoryDatabaseNames.cs:  -> 09c793e91ebfbb171f0c1364a829c33c
+  custom:scripting/monoscript/fileName/CharacterMover.cs:  -> b386da2a6c9557c511343ea7ae85b9b1
+  custom:scripting/monoscript/fileName/ItemAmountsWithDefinition.cs:  -> e941d909512896f24e3a67341b86c412
+  custom:scripting/monoscript/fileName/IInventorySystemManager.cs:  -> a5f1dfd47d3d15ae8fe6c890aa62a6af
+  custom:scripting/monoscript/fileName/TextComponent.cs:  -> 7c7276ac0d5727ede3a960f22e7e2890
+  custom:scripting/monoscript/fileName/GroupItemRestrictionObject.cs:  -> f471776ad9247f17f67df22e41a480c7
+  custom:scripting/monoscript/fileName/DebugItemAction.cs:  -> 7811b57290adcc23ef4b9363eb699737
+  custom:scripting/monoscript/fileName/DamagePopupSpawner.cs:  -> 26faf411dd29c6e13f60379619e04079
+  custom:scripting/monoscript/fileName/UnityInput.cs:  -> dbc71cc4a7a622710c502e7a29403d89
+  custom:scripting/monoscript/fileName/Rotator.cs:  -> d747a9ade6f73a5915bd487a248600fc
+  custom:scripting/monoscript/fileName/ImportStatus.cs:  -> c59d844a4650241b8b6bd1b0fcf431e4
+  custom:scripting/monoscript/fileName/ItemViewSlotDragHandler.cs:  -> 5656e9614fa44eef4077df5de14ff540
+  custom:scripting/monoscript/fileName/ItemViewDropMoveIndexAction.cs:  -> 7a8e7f25b17c0389e0de072fc7de3285
+  custom:scripting/monoscript/fileName/ItemCategoryAmounts.cs:  -> f03147b92f32e2763e5311e661ab310b
+  custom:scripting/monoscript/fileName/PlayResult.cs:  -> b5384c41ac111a0c20ee8804f69bb093
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerBinding.cs:  -> cf623d742744eda20f1fb93539077f97
+  custom:scripting/monoscript/fileName/ShopBase.cs:  -> 787e82981e30e7b25c497293a69de85b
+  custom:scripting/monoscript/fileName/AttributeCollection.cs:  -> 2ea7fc8b4391d64926f78d4f24ebf5dd
+  custom:scripting/monoscript/fileName/SaveViewDrawer.cs:  -> af5133c5757e14c6b789a1e38e1e3e9f
+  custom:scripting/monoscript/fileName/NameValueAttributeView.cs:  -> 32d1e1641b620bdb99fdcb002fbba0ac
+  custom:scripting/monoscript/fileName/CurrencyOwner.cs:  -> 24345761c5704c482e09c755cc399d45
+  custom:scripting/monoscript/fileName/SchedulerBaseInspector.cs:  -> 00c4a18b6023738bfe024e528e3bc631
+  custom:scripting/monoscript/fileName/ActionElement.cs:  -> 1eb5101eff6bcfe31abbc118ad51abb4
+  custom:scripting/monoscript/fileName/ItemViewDropPlayAudioClip.cs:  -> 0bebb0d6d247bfca2028fe81aa05f14a
+  custom:scripting/monoscript/fileName/StorageMenu.cs:  -> 3a9cfa4be605e1333382eb88bd0f841f
+  custom:scripting/monoscript/fileName/ItemHotbar.cs:  -> b1dd02209e1f4d393b9ec8aa73dfa38e
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerCategoryItemActionSetBinding.cs:  -> 3b3c62b838dfd7eacbec33c9bdf4cd82
+  custom:scripting/monoscript/fileName/AdjustItemAmountInputField.cs:  -> dc759c534e2f2deb71533cdba3d27713
+  custom:scripting/monoscript/fileName/IDAmountSaveData.cs:  -> 0c8c65e645ddf1d14219329d1251e2f7
+  custom:scripting/monoscript/fileName/RangeAttack.cs:  -> fbfbf05089bbf643934905865f7c6e13
+  custom:scripting/monoscript/fileName/InteractableBehavior.cs:  -> df11512309456f947b8fdb9216f551a3
+  custom:scripting/monoscript/fileName/Flash.cs:  -> bc4e5133e3d94607ffe07c371f0dcc8d
+  custom:scripting/monoscript/fileName/CraftingMenu.cs:  -> 29b4f4c3651613967f6934f141b17552
+  custom:scripting/monoscript/fileName/UnityInputInspector.cs:  -> 0dce0556b1462363f4e6635156f220d5
+  custom:scripting/monoscript/fileName/VirtualButton.cs:  -> 2257da2e9924cbdb0a1045cb1ab6f28b
+  custom:scripting/monoscript/fileName/Scheduler.cs:  -> b711313c3799dd72331d27095ffb018e
+  custom:scripting/monoscript/fileName/PlayerCharacter.cs:  -> 84df9e6cd31346f3c9e4b502d662faf8
+  custom:scripting/monoscript/fileName/EnemyCharacter.cs:  -> 6b0ea7c6c6f9291115f361df5ff50d85
+  custom:scripting/monoscript/fileName/ItemDescriptionPanelBinding.cs:  -> 9f8328919b6345f525c8e53772fca11a
+  custom:scripting/monoscript/fileName/RecipeAttributes.cs:  -> ff8a8b02520da6242e5abb3e2bef841a
+  custom:scripting/monoscript/fileName/PlayerInputInspector.cs:  -> 9510eee46724473a2b41b213ddb847b1
+  custom:scripting/monoscript/fileName/CharacterAnimator.cs:  -> fd4433c953b13f51c93809d754ea37e0
+  custom:scripting/monoscript/fileName/CategoryRestrictionIconItemView.cs:  -> b5162db9d417a3439540e3b05f63e3dd
+  custom:scripting/monoscript/fileName/SaveData.cs:  -> ce266fd9e409a4b403890595f6bfe79b
+  custom:scripting/monoscript/fileName/View.cs:  -> 2d8ea8c1fe542e3f2e6c8368038f9d8a
+  custom:scripting/monoscript/fileName/AudioClipInfo.cs:  -> f2813ad077d20802b616e39e16ac9728
+  custom:scripting/monoscript/fileName/ItemShapeGridDataSaver.cs:  -> f2d4b3a2cfe2112c9ec9fec9d38ec581
+========================================================================
+Received Import Request.
+  Time since last request: 13356.568634 seconds.
+  path: Assets/Opsive
+  artifactKey: Guid(75ee25a90ee12bc4cb893bac4940a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive using Guid(75ee25a90ee12bc4cb893bac4940a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336a2c91d1a59c58d8865eb683dd62e9') in 0.002263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.138505 seconds.
+  path: Assets/Opsive/UltimateInventorySystem
+  artifactKey: Guid(b7d2f2e42d16c5e46a9f8020eb57e16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateInventorySystem using Guid(b7d2f2e42d16c5e46a9f8020eb57e16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5c4d6a264174d67c653e5161e4eec1') in 0.000606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.207742 seconds.
+  path: Assets/Opsive/UltimateInventorySystem/Demo
+  artifactKey: Guid(84ed748a79074c629232a21336636bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateInventorySystem/Demo using Guid(84ed748a79074c629232a21336636bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f557afa8e766fc429ed29509bc9e606b') in 0.000763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.526757 seconds.
+  path: Assets/Opsive/UltimateInventorySystem/Demo/Demo.unity
+  artifactKey: Guid(ff3fe81762c03a5418427843aeda8898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateInventorySystem/Demo/Demo.unity using Guid(ff3fe81762c03a5418427843aeda8898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8de09b9180fd77a2204ba9b4fcbac03') in 0.000525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 71.797611 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f59831343c0ffa1563c614994303d0') in 0.000514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.138230 seconds.
+  path: Assets/Opsive/Shared
+  artifactKey: Guid(5d222402700c7774497521f1939b7d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/Shared using Guid(5d222402700c7774497521f1939b7d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6173105d2e2e170aba7de75b4971b136') in 0.000438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.078259 seconds.
+  path: Assets/Opsive/Shared/Opsive.Shared.asmdef
+  artifactKey: Guid(d8e89a79cd8df884b8d5b3356783eb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/Shared/Opsive.Shared.asmdef using Guid(d8e89a79cd8df884b8d5b3356783eb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692fbcd2be2f93ed093b5255eddbfb0f') in 0.000440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.808 seconds
+Refreshing native plugins compatible for Editor in 8.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.731 seconds
+Domain Reload Profiling: 2535ms
+	BeginReloadAssembly (274ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (412ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (82ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1731ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (883ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (753ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 5.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 678 unused Assets / (1.1 MB). Loaded Objects now: 3584.
+Memory consumption went from 129.8 MB to 128.7 MB.
+Total: 4.821300 ms (FindLiveObjects: 0.373200 ms CreateObjectMapping: 0.305000 ms MarkObjects: 3.219100 ms  DeleteObjects: 0.922800 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/AttributeUtility.cs: a716ace3a682d98d201608ab355d73d1 -> 35cd67e6ef29078ec4ef7d7a0fe4dd19
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/InspectorUtility.cs: 1cf92e4af45cb9e9886ec49564b001a9 -> e19c2853cd61f2778b8e7201df90876e
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Text.cs: f3cd2527cc0cf233b21b58a0a7d6ebc9 -> c729f6848f27e5e10271b8554c1e40e8
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Crafter.cs:  -> 9081fcf797aa3c6acd00b48aee62ecee
+  custom:scripting/monoscript/fileName/CraftingRecipeGrid.cs:  -> 47404b59f0bbd604d61512a21fdac321
+  custom:scripting/monoscript/fileName/SaverBase.cs:  -> cc5ce6f278cda4d633bf2d7eb2c318ac
+  custom:scripting/monoscript/fileName/ItemRestrictionSetObject.cs:  -> f2cdeac577ae881712c238f53a30ba94
+  custom:scripting/monoscript/fileName/DisplayPanelManagerHandler.cs:  -> 41039b6311360ffaac8d99caa1f0fc07
+  custom:scripting/monoscript/fileName/ItemViewSlotRestriction.cs:  -> ac77e676cc4c73d03ee23c581cc98432
+  custom:scripting/monoscript/fileName/RangeAttackBullet.cs:  -> 091f35cad39348838b7456ca92920b97
+  custom:scripting/monoscript/fileName/MainMenu.cs:  -> 34900bd8e4eba49423517705ff13839c
+  custom:scripting/monoscript/fileName/ValueToColorAttributeView.cs:  -> 829e9951fb1e5e322cd6965dd08ef476
+  custom:scripting/monoscript/fileName/MoveToCollectionItemAction.cs:  -> 6cd9b70b31a1d0fddb2eaa4a07cbde66
+  custom:scripting/monoscript/fileName/ItemActionBindingItemViewModule.cs:  -> 910d136f59fef73df51dec8ccec3d6a2
+  custom:scripting/monoscript/fileName/InventoryGridIndexDataSaver.cs:  -> 1b7f152fc771553be977e6b593782897
+  custom:scripting/monoscript/fileName/VirtualControlsManager.cs:  -> e32bb747c3a772f339f83fd21ab9da3a
+  custom:scripting/monoscript/fileName/ItemAction.cs:  -> 5dbcdeb2ab9fa5198d6bb3c95ac14649
+  custom:scripting/monoscript/fileName/ItemViewDropInventoryGiveAction.cs:  -> 4d1ec649d8ca9429949c7ec43eae8c2f
+  custom:scripting/monoscript/fileName/ItemViewDropContainerSmartExchangeAction.cs:  -> 416844a75d3d307d2a64b1e1f0dffcd8
+  custom:scripting/monoscript/fileName/CurrencyAmounts.cs:  -> ed0683b189d2d8dcee1758ef03abd399
+  custom:scripting/monoscript/fileName/GridNavigatorWithScrollbar.cs:  -> 3741e5c602413afb126db96def630f87
+  custom:scripting/monoscript/fileName/ItemInfoGridSorterBinding.cs:  -> a88938c68e842dfc61432b4db3aa6fdc
+  custom:scripting/monoscript/fileName/AttributeViewForItemViewModule.cs:  -> 851365fa1cd7f18e433838d184133206
+  custom:scripting/monoscript/fileName/ItemCollectionStackSizeRestriction.cs:  -> d521b02d4f6c88685065f496a27f0a3f
+  custom:scripting/monoscript/fileName/ItemShapeDropPreviewItemView.cs:  -> fe77a92004514be724468b1eaae0defa
+  custom:scripting/monoscript/fileName/RandomInventoryPickup.cs:  -> 28bfccb8c43db10a7b1bc55968e3624a
+  custom:scripting/monoscript/fileName/ItemCategoryRegister.cs:  -> 6119df4ddaa3419f04c445d7cbeffe93
+  custom:scripting/monoscript/fileName/ItemViewDropItemAmountCondition.cs:  -> 79faa441730f9c4fbf60776beea13707
+  custom:scripting/monoscript/fileName/Attribute.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/IPlayerInput.cs:  -> af9a3f4a48761e60e58cab7db894c041
+  custom:scripting/monoscript/fileName/ItemUpgradePanel.cs:  -> 3987c5ad4a0d93c363315d1dec4b7967
+  custom:scripting/monoscript/fileName/OnValidateUtility.cs:  -> 2546748804143c49cbed8c270c98cd91
+  custom:scripting/monoscript/fileName/ItemObjectBehaviour.cs:  -> 6cdf04a9f6b9a69e3a15e0ddb1d54b52
+  custom:scripting/monoscript/fileName/NameItemView.cs:  -> e6228c109d8de8fe413438212734bcb4
+  custom:scripting/monoscript/fileName/DisplayPanelDragHandler.cs:  -> 35c148a7850174e06891ffdf16e84646
+  custom:scripting/monoscript/fileName/EnableDisableInventoryInput.cs:  -> 9cd965b3ccbf0b74873cd6c4c0a75ae6
+  custom:scripting/monoscript/fileName/GeneratedStubTypes.cs:  -> 9c20b8baa831164e21c7cf7990c4ddee
+  custom:scripting/monoscript/fileName/ItemAdderRemover.cs:  -> 7f1faadc8c4682d5f425b7ef7dedf296
+  custom:scripting/monoscript/fileName/RelativeTooltip.cs:  -> cd48137328fcc657f9640214274ab61f
+  custom:scripting/monoscript/fileName/ItemShapeRectPlacerItemView.cs:  -> ab0c0ca523a87e4deb99a27a9d70407c
+  custom:scripting/monoscript/fileName/ItemShape.cs:  -> ed7f6de3e0585780bdb476ad099ee6b1
+  custom:scripting/monoscript/fileName/MeleeAttack.cs:  -> e2133ffd9a4726f898ee2eeb94beb5ad
+  custom:scripting/monoscript/fileName/FirstOutputRecipeView.cs:  -> 34ea898b1610c782a6f226c507dabf57
+  custom:scripting/monoscript/fileName/CurrencyRegister.cs:  -> 79f950fecec4dc0861fdb8820515348c
+  custom:scripting/monoscript/fileName/CraftingProcessor.cs:  -> ccac8d3e06b923e9b07758c736824312
+  custom:scripting/monoscript/fileName/AmountItemView.cs:  -> 21324a0af222e35e824bc51d4a8a6940
+  custom:scripting/monoscript/fileName/IObjectAmounts.cs:  -> 59d515ddb561109d007cbbbb1afa510d
+  custom:scripting/monoscript/fileName/ItemView.cs:  -> ead0117a7c50a4078d98e4c7ca1d472e
+  custom:scripting/monoscript/fileName/ItemAmountProbabilityTable.cs:  -> 27a4c72d02ff34614c6da3ea2055e84f
+  custom:scripting/monoscript/fileName/DemoCompareAttributeView.cs:  -> 235b0cc11009a5179bb331eeb057d27f
+  custom:scripting/monoscript/fileName/ItemViewSlot.cs:  -> b9db6ed7ee1eeb8a692bb799fcb72116
+  custom:scripting/monoscript/fileName/ItemViewSlotContainerItemActionHandler.cs:  -> b4faf78692901ae77a85f9a0339f63da
+  custom:scripting/monoscript/fileName/InventoryInput.cs:  -> 60cdb382244fb35e9e921d4479f4d25d
+  custom:scripting/monoscript/fileName/ItemInfoCategoryFilter.cs:  -> d5fadf8d6d359004d80ab0086c7c5e31
+  custom:scripting/monoscript/fileName/AudioManager.cs:  -> 026632d8a9e26c75fe73e1e89494b47b
+  custom:scripting/monoscript/fileName/ItemCollectionCategoryRestriction.cs:  -> 65e4a26d41d001af01f6ba25bdf560fa
+  custom:scripting/monoscript/fileName/ItemActionSet.cs:  -> 325d480714fcf7af39e88cacf426e2d8
+  custom:scripting/monoscript/fileName/DragOffView.cs:  -> c3b934149fd87a5fed3265dbf69e50bd
+  custom:scripting/monoscript/fileName/GridBase.cs:  -> 4ce056ce7e1f489d499fe2b39a09ad58
+  custom:scripting/monoscript/fileName/ButtonsOpenPanel.cs:  -> 3a3e97a73fda46c46405a89ab805adfa
+  custom:scripting/monoscript/fileName/IInventoryDependent.cs:  -> 873af99eaf6970148e560609ae4359e5
+  custom:scripting/monoscript/fileName/QuantityPicker.cs:  -> d0774b466fc5faeafd73e6cfefd8cb71
+  custom:scripting/monoscript/fileName/CurrencyPickup.cs:  -> 4de7b1ee254f1b920525d9ebf1939aeb
+  custom:scripting/monoscript/fileName/CraftingOutput.cs:  -> 7d53a2dab3e6f4a70171da2c4fcfa009
+  custom:scripting/monoscript/fileName/IterationHelper.cs:  -> 2e97d36a9c2c70be2465a2e2b5b69c42
+  custom:scripting/monoscript/fileName/InventoryStandardInput.cs:  -> 2ed12c18299ae028aefd999a927d298f
+  custom:scripting/monoscript/fileName/DemoEventNames.cs:  -> faf4a8fb9a7ce1381efd4c500a986c98
+  custom:scripting/monoscript/fileName/InspectorDrawerUtility.cs:  -> b4045e62c230ce0fc155b962b0f164a3
+  custom:scripting/monoscript/fileName/MoveItemAction.cs:  -> cc7a3731dce5cad4f0f05841f8df4502
+  custom:scripting/monoscript/fileName/ItemViewDropSpawnItemObjectAction.cs:  -> d66416232702c3fcf70dd40db480625e
+  custom:scripting/monoscript/fileName/ItemPickup.cs:  -> f6e2e374e7aa4d906b710c79095e61e0
+  custom:scripting/monoscript/fileName/CategoryAttributeViewSetItemViewModule.cs:  -> 49f68ebaf4f8e3961827ae41016880bd
+  custom:scripting/monoscript/fileName/Equipper.cs:  -> bea8ec5ac01fdf03fa9f7a02fdf7e741
+  custom:scripting/monoscript/fileName/ImageAndText.cs:  -> 85264d783b6ee6eebc97c3a61b590e76
+  custom:scripting/monoscript/fileName/DemoThrowItemAction.cs:  -> 468fd16ade5e924ae53a82f1ddb2757a
+  custom:scripting/monoscript/fileName/ActiveInputEvent.cs:  -> 73b0d3341ea498f14e3448a25adf21e0
+  custom:scripting/monoscript/fileName/ItemViewDropActionToItemAction.cs:  -> faf8f2971fdcfe7eeed011c923efff55
+  custom:scripting/monoscript/fileName/ItemViewDropFromItemCollectionCondition.cs:  -> 43c3d502dc8b83dc418ca246d8ee5f97
+  custom:scripting/monoscript/fileName/CraftingIngredients.cs:  -> 6c1ae06facf7d350620857f0c3bae3df
+  custom:scripting/monoscript/fileName/EquipperBase.cs:  -> 4d06ef13963cbfbf8d3d6137109b9248
+  custom:scripting/monoscript/fileName/EventNames.cs:  -> 000072928fd07eb4626070bdac2fa09c
+  custom:scripting/monoscript/fileName/RecipeView.cs:  -> fd60a8d47635ef6cd8e414444f6bedfc
+  custom:scripting/monoscript/fileName/CraftingRecipeViewDrawer.cs:  -> 9a8060c0c7f195f8ad375f788dec5b62
+  custom:scripting/monoscript/fileName/InterfaceUtility.cs:  -> 239ba099b978756c0b0cdc83fac2de50
+  custom:scripting/monoscript/fileName/ItemCategoryAttributeCollection.cs:  -> 8191f73a413f2b7a259ff9089b7d6158
+  custom:scripting/monoscript/fileName/ItemViewDropContainerCanMoveCondition.cs:  -> 4ce47f2e4429a01c2b9a352ee991f682
+  custom:scripting/monoscript/fileName/TabControl.cs:  -> 22500a3691ddb804df1c134ae4b96fb1
+  custom:scripting/monoscript/fileName/Interactable.cs:  -> 91bdf9f92c135862d6fc15aa9b1473da
+  custom:scripting/monoscript/fileName/VirtualTouchpad.cs:  -> a6d12a27d865a3e639fc987770f2f172
+  custom:scripting/monoscript/fileName/CraftingCategoryRegister.cs:  -> befe96dc53bce89c73ee3a0e8bdd4fa5
+  custom:scripting/monoscript/fileName/EnableDisableItemViewModule.cs:  -> 43e94d3c94a2a10153c45297fb37a61f
+  custom:scripting/monoscript/fileName/RandomCurrencyDropper.cs:  -> 495b0fa7e0f823738592b616596614a9
+  custom:scripting/monoscript/fileName/ViewSlot.cs:  -> 8e5fbff98806e5de6f801c29d976a7f8
+  custom:scripting/monoscript/fileName/ItemAttributeCollection.cs:  -> d0a14ed06e8d10e78e102eae5f6af846
+  custom:scripting/monoscript/fileName/AdjustCurrencyAmountInputField.cs:  -> a3ba8b6bcedc3696ad7fb9471cd2bcf8
+  custom:scripting/monoscript/fileName/ItemRegister.cs:  -> 37fd127305b666eab284de3293364650
+  custom:scripting/monoscript/fileName/CraftingResult.cs:  -> a5ef5958b0d52455a0069f32ea88a5c7
+  custom:scripting/monoscript/fileName/IDamager.cs:  -> 79f0b41da1f89a37cefaa4853387133c
+  custom:scripting/monoscript/fileName/InventoryMirrorHotbar.cs:  -> 0c241a3775f81c30a43964df33c76384
+  custom:scripting/monoscript/fileName/SaveMenu.cs:  -> 9d7b05ae86eda1c691820ca7173792e0
+  custom:scripting/monoscript/fileName/DisplayPanel.cs:  -> 65fde6afde917f28cd9b422609084929
+  custom:scripting/monoscript/fileName/DetailsItemView.cs:  -> e58bf0d1e6d488615870234c0b6b6801
+  custom:scripting/monoscript/fileName/MultiItemAction.cs:  -> 5bb96b64932f6e9add7672fc3631033c
+  custom:scripting/monoscript/fileName/CraftingMenuOpener.cs:  -> cf428428660ec8d7278e27242b9ecdc6
+  custom:scripting/monoscript/fileName/CraftingRecipe.cs:  -> 93eee83f49e3ecee67db53c118689b96
+  custom:scripting/monoscript/fileName/VirtualAxis.cs:  -> f8130b2da02a9fd4740120288560841a
+  custom:scripting/monoscript/fileName/AudioConfig.cs:  -> f6be977545f4cc89330591a4b70ea15b
+  custom:scripting/monoscript/fileName/ObjectAmounts.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/CraftingRecipeFilter.cs:  -> 9924310a8be24b1541acb9c3a0f61f83
+  custom:scripting/monoscript/fileName/ItemDefinitionAmount.cs:  -> 08f42a112cc9b215342d14081305a5ac
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerPanelBinding.cs:  -> bf474e2b00de7922a0dec66ac80c49bf
+  custom:scripting/monoscript/fileName/ItemViewSlotCategoryRestriction.cs:  -> 3c5409b7642a76930b75eb7a4ac71c4b
+  custom:scripting/monoscript/fileName/ChestLockedMessage.cs:  -> 312846cded92aa693ab71ff9fda7b0c5
+  custom:scripting/monoscript/fileName/InventoryAmountItemView.cs:  -> 3d3043c9042518eead81ba9f1743bc3d
+  custom:scripting/monoscript/fileName/AsyncFuncActionsPanel.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/EnemyRespawnerTrigger.cs:  -> 2e904be43b09c608c6ac23650b46194a
+  custom:scripting/monoscript/fileName/CharacterInput.cs:  -> ed4d745d36993266ce93147fe369d17f
+  custom:scripting/monoscript/fileName/Damageable.cs:  -> d6971aa8234571aea3c142cc817abe45
+  custom:scripting/monoscript/fileName/CraftingIngredientsWithCurrency.cs:  -> b338e131882ff6ef3ee836884e56300d
+  custom:scripting/monoscript/fileName/AsyncFuncAction.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/SaveViewModule.cs:  -> 1064e7a76e7f86dfeb94cecb99a77f26
+  custom:scripting/monoscript/fileName/ItemObjectAction.cs:  -> 6ad74afabe9a049f282e39ef1686b0f1
+  custom:scripting/monoscript/fileName/ButtonWithText.cs:  -> 7ac028a86d267ccbbb5bf6d30415a047
+  custom:scripting/monoscript/fileName/Bomb.cs:  -> 1f4a6bd0288001afc22194b40785d4e4
+  custom:scripting/monoscript/fileName/PlayAudioClipItemAction.cs:  -> 8811fb576f67860c5c63a7cc794bd03b
+  custom:scripting/monoscript/fileName/CraftingRecipeMultiFilterSorter.cs:  -> 3efad89865539d408136c72be5b121f2
+  custom:scripting/monoscript/fileName/MultiStackItemCollection.cs:  -> 8dfd17be0394ef663573ce2286e361f1
+  custom:scripting/monoscript/fileName/IconItemView.cs:  -> 3c91c0a61274362d9a647f6ed740b9f2
+  custom:scripting/monoscript/fileName/PanelDragHandler.cs:  -> a525812b36459704ceeee8975277ecf2
+  custom:scripting/monoscript/fileName/ItemActionCollection.cs:  -> 5a4ac808469cc953c313d0d64d0bcf8c
+  custom:scripting/monoscript/fileName/ItemViewDropContainerGiveAction.cs:  -> c7b5cf980b9e47f52f902f4495958ffd
+  custom:scripting/monoscript/fileName/ItemViewSlotDropActionSet.cs:  -> 7b79a8755e6d000188dd3996e61bbc15
+  custom:scripting/monoscript/fileName/DemoCharacterDamageable.cs:  -> c172dd5cea3b3225652d4075f693d2ed
+  custom:scripting/monoscript/fileName/QuantityPickerPanel.cs:  -> c9eaf4f64767da2c9fa8332c3495afcb
+  custom:scripting/monoscript/fileName/Chest.cs:  -> a723fccaf24a1183046ec1b5108a0aa3
+  custom:scripting/monoscript/fileName/SlotIndexView.cs:  -> 1e89894a226ab03926dd81b7a240e332
+  custom:scripting/monoscript/fileName/AmountUtility.cs:  -> 6757f707be0c29f80e940c2d8f2a5477
+  custom:scripting/monoscript/fileName/IActionWithSlotContainer.cs:  -> 9e9470c36fcc3a45a64856ad68e472a1
+  custom:scripting/monoscript/fileName/DisplayPanelManager.cs:  -> b2aad51e9feffa1aa6367e1354368245
+  custom:scripting/monoscript/fileName/ItemInfoProbabilityTable.cs:  -> e32caebaa9640259add907fe6241170b
+  custom:scripting/monoscript/fileName/BillboardFX.cs:  -> 4f0ec74064b121f451d80cf400947990
+  custom:scripting/monoscript/fileName/ItemInfoGrid.cs:  -> 3a30d991f26d486d0913aeeea83b673c
+  custom:scripting/monoscript/fileName/PickupBase.cs:  -> edb8a77bb20e2d301ada3d3a2df31c25
+  custom:scripting/monoscript/fileName/DefinitionRestrictionIconItemView.cs:  -> c6a4c2d4caab0d9b6cfac33c9fbd05d1
+  custom:scripting/monoscript/fileName/ICharacter.cs:  -> b7292b8a23ddc9b16424d977e028bb5b
+  custom:scripting/monoscript/fileName/ConfirmationPopUp.cs:  -> b8fef14649876bcb419e66479145e6b1
+  custom:scripting/monoscript/fileName/ItemInfoCategoryNameSorter.cs:  -> c2f1792d488631ef2a88dfb2b3c27eb7
+  custom:scripting/monoscript/fileName/InventoryItemVisualizer.cs:  -> 612ca4c6e53cd474616ea0f3fb921be2
+  custom:scripting/monoscript/fileName/ItemObjectSlot.cs:  -> 0c72f88463390072849ce0c1ee6ef82f
+  custom:scripting/monoscript/fileName/CharacterStats.cs:  -> 57ef9a8fa47723b1bd5937c7f519d3f0
+  custom:scripting/monoscript/fileName/ItemShapeGridUtility.cs:  -> 67854192df01bb3e577cf9962a9d4c01
+  custom:scripting/monoscript/fileName/InventoryDatabaseUtility.cs:  -> 71fd81d888d9cf40a7115421056189c7
+  custom:scripting/monoscript/fileName/ItemSlotSet.cs:  -> 0589518194072f82ecb472fdbc33ce69
+  custom:scripting/monoscript/fileName/SettableActionElement.cs:  -> 55fcea8260502932c64e215ee4884f12
+  custom:scripting/monoscript/fileName/ItemObjectSpawner.cs:  -> 4c3782ccff1fbbeeea219ffeeb32406a
+  custom:scripting/monoscript/fileName/AssignHotbarItemAction.cs:  -> bee814bdd358df14b2ef493cdec2cc3f
+  custom:scripting/monoscript/fileName/DuplicateItemAction.cs:  -> 9c388a834853aa3ec46917c10704945b
+  custom:scripting/monoscript/fileName/Projectile.cs:  -> f74b3b205ca1d3f583a056b7cae928b0
+  custom:scripting/monoscript/fileName/ItemBinding.cs:  -> bf9cf66e848d27b7384fe85a2cafaca7
+  custom:scripting/monoscript/fileName/IViewModuleSelectable.cs:  -> a3c701206a92beef5804543edfbcfc7a
+  custom:scripting/monoscript/fileName/ItemActionPanel.cs:  -> c336c0877d2c1dcf5705c43255323923
+  custom:scripting/monoscript/fileName/SimpleCraftingProcessor.cs:  -> be7759df6d4ea7d3d85e60ad981f87f6
+  custom:scripting/monoscript/fileName/Inventory.cs:  -> 88ac0d4ef39ccffc4204d7d359c7f215
+  custom:scripting/monoscript/fileName/UseItemActionSetAttribute.cs:  -> 4366fd26d816208dd2b07c807fc6d278
+  custom:scripting/monoscript/fileName/RequiredItemDefinitionAttributeCollection.cs:  -> b2752d2b6dea4c200ac1a1f1220c3fa0
+  custom:scripting/monoscript/fileName/QuantityDropItemAction.cs:  -> 3c7a0290e1d25ca52ed285e52247a8b8
+  custom:scripting/monoscript/fileName/GlobalDictionary.cs:  -> 7af54664e4d9c157db41f831d989171a
+  custom:scripting/monoscript/fileName/ShopMenu.cs:  -> e15e4442cfa2e6e975f52b6994b7f308
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerItemActionBindingBase.cs:  -> c375dc90c9bc546e25dcfcc33cb3dfce
+  custom:scripting/monoscript/fileName/StandaloneInput.cs:  -> ffee40ba0d5a755750ad0cf6ec3cda03
+  custom:scripting/monoscript/fileName/ChestInteractable.cs:  -> bcb1b5afe4539a0e7576e40754a641fa
+  custom:scripting/monoscript/fileName/ItemViewDropHandler.cs:  -> 3e4be03eed3a33ca414c13ae1d4951da
+  custom:scripting/monoscript/fileName/InventorySaver.cs:  -> d9497a5995324b0bec271988cb9b20f1
+  custom:scripting/monoscript/fileName/CharacterStatsDisplay.cs:  -> 4446b87be478b75a04e1e66b9ee021e0
+  custom:scripting/monoscript/fileName/TextPopup.cs:  -> 9f5b7e30eaf4955eff27d8f3b776e0ea
+  custom:scripting/monoscript/fileName/InventoryObjectRegister.cs:  -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/PreventSelectableDeselection.cs:  -> c9374003cc9f06f6fccbda037cf661e5
+  custom:scripting/monoscript/fileName/ButtonAudioHandler.cs:  -> 941be3154310ccd26eb12d9fbe85acf9
+  custom:scripting/monoscript/fileName/INetworkInfo.cs:  -> df610a4e170f86e73a8b7094dc0e822b
+  custom:scripting/monoscript/fileName/MultiCurrencyView.cs:  -> 6c9a4d15e14983aa6a5035ae883beae8
+  custom:scripting/monoscript/fileName/ShopGeneric.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/InventoryGridIndexData.cs:  -> 50f791ee4b19e800361b31287c3c8dc4
+  custom:scripting/monoscript/fileName/ColorAmountItemView.cs:  -> 983d45e3b1a9db68a831602f9bd66664
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerBase.cs:  -> 9adfa176c24a16725a001132a9bbccb5
+  custom:scripting/monoscript/fileName/RemoveItemAction.cs:  -> e60190133d676ec6cb9af2e22f1a2d96
+  custom:scripting/monoscript/fileName/InventorySystemRegister.cs:  -> 28c55770e1abcc93c0ccb42fb218ea96
+  custom:scripting/monoscript/fileName/GridNavigatorBase.cs:  -> 6bc35ff8823e088df3f1501884587b47
+  custom:scripting/monoscript/fileName/ItemShapeGrid.cs:  -> 9c1764de153d5055c093b1863f4edc46
+  custom:scripting/monoscript/fileName/CurrencyExchangeRate.cs:  -> 847ba1b90eab4069855c45d74a33951f
+  custom:scripting/monoscript/fileName/ItemSlotsItemView.cs:  -> dd8f8939574387d2a6b4dc271f86ed47
+  custom:scripting/monoscript/fileName/CameraUtility.cs:  -> 67a60687b8628cdee34332c9804b0779
+  custom:scripting/monoscript/fileName/CategoryAttributeViewSet.cs:  -> 5245fe759c5a5cc737f2b85723212b14
+  custom:scripting/monoscript/fileName/IInteractor.cs:  -> c088e9b2c79b8aecc3f33668e39e8bb1
+  custom:scripting/monoscript/fileName/EventSystemManager.cs:  -> b6b91c7bbf8ff8901a6b22677c5e71ff
+  custom:scripting/monoscript/fileName/ItemVisualizerBase.cs:  -> 53694d3952a30a1ce77c566020335aac
+  custom:scripting/monoscript/fileName/SaveSystemManager.cs:  -> 098af356471f3cd4490bfad41078946f
+  custom:scripting/monoscript/fileName/EventSystemIdentifier.cs:  -> 504c671d826d2f5f81e98afbd93ebe9c
+  custom:scripting/monoscript/fileName/ItemViewSlotCursorManager.cs:  -> 4dbf5a4ba3aea9c25ae87eed6bb51428
+  custom:scripting/monoscript/fileName/CraftingTabData.cs:  -> 985bb1dce1bd2c8b2c23cfe666c78b5e
+  custom:scripting/monoscript/fileName/Shop.cs:  -> dbd41a092d7ff6924c51e7b8d29ed19e
+  custom:scripting/monoscript/fileName/InventoryGridSaver.cs:  -> b44eea6a7456145c0fd17269ed122e1c
+  custom:scripting/monoscript/fileName/HpMonitor.cs:  -> ee0eb965cfda847e7f95eea0e137cbc0
+  custom:scripting/monoscript/fileName/InventorySearchFilter.cs:  -> ccfc154453a4ffbe03e96e6eea10dfc7
+  custom:scripting/monoscript/fileName/SimpleCraftingProcessorWithCurrency.cs:  -> 120f0ee4b0d50cd26b00f9326fb756d2
+  custom:scripting/monoscript/fileName/SaveMetaDataCreator.cs:  -> b19b90e5daa94748cce91343beec2323
+  custom:scripting/monoscript/fileName/DemoOpenItemAction.cs:  -> 37633968eea6b2e604c537b5a75400e3
+  custom:scripting/monoscript/fileName/ScrollbarWithButtons.cs:  -> 75919f436d885a0355bba844a57634ce
+  custom:scripting/monoscript/fileName/CharacterRotator.cs:  -> 826d227b1a60bd79703918655d561f06
+  custom:scripting/monoscript/fileName/ItemID.cs:  -> 36c8dcf90f3340c53e2866d1ac9ab746
+  custom:scripting/monoscript/fileName/ItemDropper.cs:  -> 35a1e4b4789154b78826acc5915a3ff2
+  custom:scripting/monoscript/fileName/InventoryTabData.cs:  -> 2727a95263acec31d056ab72b41dc892
+  custom:scripting/monoscript/fileName/TextControl.cs:  -> 8cc5e5879d7f2c2c5d2c3959d1d72ec9
+  custom:scripting/monoscript/fileName/StorageMenuOpener.cs:  -> c9f2ba8ad8153b0d48ea6cefb4928279
+  custom:scripting/monoscript/fileName/UpgradeMenu.cs:  -> 689293f481f7268a425ca190add43080
+  custom:scripting/monoscript/fileName/ItemViewSlotDropHandlerBinding.cs:  -> 7d5ef3887859d4fbf2a03c8e6aae4bf7
+  custom:scripting/monoscript/fileName/GridGeneric.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerSaver.cs:  -> 696a737af618ab6bdfb1c783102b1696
+  custom:scripting/monoscript/fileName/FixedScale.cs:  -> 6fcb6d1486904cdff701a7e0923b180d
+  custom:scripting/monoscript/fileName/CharacterCamera.cs:  -> a2a44fca209cc04acdcb16493a03211d
+  custom:scripting/monoscript/fileName/InventoryPickup.cs:  -> 4dc608ac93b89940d6a154af7b75d5d0
+  custom:scripting/monoscript/fileName/VirtualJoystick.cs:  -> ff1f887ccab193b5882dc051cb54eac5
+  custom:scripting/monoscript/fileName/ObjectPool.cs:  -> 8af6b0b3c4234cc9899b81aeacc87069
+  custom:scripting/monoscript/fileName/ItemActionWithConfirmationPopUp.cs:  -> 3ca9656491e36d04b594a504030d8b29
+  custom:scripting/monoscript/fileName/IItemRestriction.cs:  -> 818cc49b009632bca4aff058d2b5c1e5
+  custom:scripting/monoscript/fileName/FloatValueAttributeView.cs:  -> a8a367f9c2ac7ff648041b9885084d12
+  custom:scripting/monoscript/fileName/CraftingRecipeWithCurrency.cs:  -> 4ed059b671a401d1b261573956d82a18
+  custom:scripting/monoscript/fileName/ItemViewSlotContainerIndexedActionsHandler.cs:  -> d010cd50edb40b2d85ddeacb8faa07f7
+  custom:scripting/monoscript/fileName/ItemCategoryAmount.cs:  -> a4d642a91949eb757306a4e764f5eee6
+  custom:scripting/monoscript/fileName/ItemCollectionGroup.cs:  -> ec2d9dc09a3ae7d67715b8d7e66ff1c9
+  custom:scripting/monoscript/fileName/AutomaticProjectileSpawner.cs:  -> 83dda2cfceac91012f85b1b42d32adb7
+  custom:scripting/monoscript/fileName/ObjectPoolBaseInspector.cs:  -> 2b6d1db16e929823bbfafcd6fa321218
+  custom:scripting/monoscript/fileName/ItemViewModule.cs:  -> d240024c253b3024eea304a212a21ea9
+  custom:scripting/monoscript/fileName/GridEventSystem.cs:  -> 9b993ecf19b18eb049355f4b9367ea41
+  custom:scripting/monoscript/fileName/SaveView.cs:  -> add6b56547d16489f22cd00fce93c5f2
+  custom:scripting/monoscript/fileName/ItemCategoryAttributeNameBinding.cs:  -> 8b796d9441369bd325a54d3d96f99e5f
+  custom:scripting/monoscript/fileName/AsyncFuncActionsPanelInt.cs:  -> 8e92349258259551adda90b9ca74b6f3
+  custom:scripting/monoscript/fileName/IShop.cs:  -> 0987ed306d30c756545dbd631e0f1020
+  custom:scripting/monoscript/fileName/AttributeInfo.cs:  -> ed1e279f0df485dbd763517332d986f0
+  custom:scripting/monoscript/fileName/CurrencyOwnerGeneric.cs:  -> 6a67d7d4bb873334bf8cdc495952bf93
+  custom:scripting/monoscript/fileName/ViewDrawer.cs:  -> e546046f3e58de448073473428ce843c
+  custom:scripting/monoscript/fileName/ItemDescription.cs:  -> 78a73502c121a07f4a987f4681966462
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerItemActionBinding.cs:  -> e2da664cf063bc619a5173c8e6214adb
+  custom:scripting/monoscript/fileName/IObjectAmount.cs:  -> 790d30e110fad396c1c6eecb8b12ca4c
+  custom:scripting/monoscript/fileName/ItemInfoItemCollectionAndCategoryFilter.cs:  -> d09295890023805eca6f7c8beba7b7ea
+  custom:scripting/monoscript/fileName/SaveMetaData.cs:  -> f8f27d9f7c65433a25e3c34daef5be59
+  custom:scripting/monoscript/fileName/ItemSlotCollection.cs:  -> 6b8a860797179de35c5c5adf8d34f966
+  custom:scripting/monoscript/fileName/SimpleInput.cs:  -> 6981e3ddaab485a850c38ce25fb5a440
+  custom:scripting/monoscript/fileName/ItemViewDropContainerCanAddCondition.cs:  -> 4ea18bb9407ea95256401d06de5cee6b
+  custom:scripting/monoscript/fileName/AudioClipSet.cs:  -> 2a5876e586e1e963dc8a0e2d171552e6
+  custom:scripting/monoscript/fileName/AmountComparisonItemView.cs:  -> 481830938949d1ca4b89ddcd2eccf483
+  custom:scripting/monoscript/fileName/ItemViewSlotMoveCursor.cs:  -> 579d7d1dccdc3c4d746e6e06ded362a0
+  custom:scripting/monoscript/fileName/ItemDescriptionBase.cs:  -> fe9340fd9be7272babbabd40249677b5
+  custom:scripting/monoscript/fileName/UnityInputBuilder.cs:  -> 0eafc1f2f8ae6a41bc306cc1a5f2eb8b
+  custom:scripting/monoscript/fileName/ValueToColorItemView.cs:  -> 9ec82975c500b731f4130ce5334d748d
+  custom:scripting/monoscript/fileName/CategoryRecipeViewSet.cs:  -> 69177fce422b535d257d254d09ffe8b2
+  custom:scripting/monoscript/fileName/RequiredItemAttributeCollection.cs:  -> 6a45f265a3509671c2c02acd9fe536c6
+  custom:scripting/monoscript/fileName/PlayerInput.cs:  -> 9096a08038bedc7332664c9fdbaa7c09
+  custom:scripting/monoscript/fileName/ICamera.cs:  -> 64b9e95bda5b1b583c0d21bd366a7631
+  custom:scripting/monoscript/fileName/ItemDefinitionAmounts.cs:  -> 22567a82d853ffa7293ce86bb4f25e14
+  custom:scripting/monoscript/fileName/ICharacterMover.cs:  -> 6012aad0070a68912d4b0b5b606c0d68
+  custom:scripting/monoscript/fileName/ItemCollectionStackAmountRestriction.cs:  -> 90679d80738ec66a838de68cbde071b3
+  custom:scripting/monoscript/fileName/SelectImageView.cs:  -> 23b5074c97f0c5e3e2a905c190a03009
+  custom:scripting/monoscript/fileName/InspectorDrawer.cs:  -> 2a09cf4fb728079b10bf0ca5a572ffd1
+  custom:scripting/monoscript/fileName/CooldownItemView.cs:  -> 907fd0de7ed0b5711d85796614d3906e
+  custom:scripting/monoscript/fileName/DisplayPanelCloser.cs:  -> a86a3006ea2308e7b33ea89207f0b311
+  custom:scripting/monoscript/fileName/AttributeBase.cs:  -> 2341d5e71c206f64eff94aaede707c2d
+  custom:scripting/monoscript/fileName/LockedChest.cs:  -> 8fc3e46903236646218f93b9a3c6c872
+  custom:scripting/monoscript/fileName/IDatabaseSwitcher.cs:  -> 5d53b695745991ff23bc0f7efc276dac
+  custom:scripting/monoscript/fileName/ItemHotbarHandler.cs:  -> 29b4be3e3955bd49e564b7c5dc28ff30
+  custom:scripting/monoscript/fileName/ItemInfoItemCollectionFilter.cs:  -> 572da9324d987de98d691bb8f4bd1c69
+  custom:scripting/monoscript/fileName/DestroyOnStart.cs:  -> fc04b7d58043ebc8ae568483da359645
+  custom:scripting/monoscript/fileName/AdditionalUnitOptions.cs:  -> 1c76992e48f06649fd6e5eed7401fd8b
+  custom:scripting/monoscript/fileName/InventoryGrid.cs:  -> dd7a574caa6b658dbe3eecf5062fcde7
+  custom:scripting/monoscript/fileName/ChestMenu.cs:  -> 6e362250bd241e7ffa2ec9e1f0bd8a16
+  custom:scripting/monoscript/fileName/ActionButton.cs:  -> c7f5cf1a2b86b46b1cbfbb613b616de0
+  custom:scripting/monoscript/fileName/InventorySystemFactory.cs:  -> 40e869418046c983302ff78e7db52021
+  custom:scripting/monoscript/fileName/Character.cs:  -> 9bf111c30b2732ddf3600c90729675b8
+  custom:scripting/monoscript/fileName/ItemViewSlotContainerDescriptionBinding.cs:  -> 19c5fa1aa9ff5cffa2711f751a2848aa
+  custom:scripting/monoscript/fileName/VirtualControl.cs:  -> ecae66a4ff94f68fde22bd6a583d30e8
+  custom:scripting/monoscript/fileName/InspectorBase.cs:  -> 3308bd0b9679e9226f64f8f73226d6a7
+  custom:scripting/monoscript/fileName/AttributeBinding.cs:  -> 55752cfa8b317f32d7ca301a8c26229e
+  custom:scripting/monoscript/fileName/GridBinding.cs:  -> 158509f6fa33433a0cacb087c0a90b22
+  custom:scripting/monoscript/fileName/InspectorStyles.cs:  -> e9cdea99fcabd46f0a758f679b8b505f
+  custom:scripting/monoscript/fileName/IItemObjectBehaviourHandler.cs:  -> faa2ebfd0265b6a3a65551fed0628c5c
+  custom:scripting/monoscript/fileName/InventoryGridIndexer.cs:  -> 418d7d76d2da0e25951ba0f9bb98af49
+  custom:scripting/monoscript/fileName/InventoryIdentifierRegister.cs:  -> 31572503afb4458d2f7081c5ff5259f5
+  custom:scripting/monoscript/fileName/RecipePanel.cs:  -> e3950d187f7de94de13e29b8f3dcc5b5
+  custom:scripting/monoscript/fileName/InventoryGridSorterDropDown.cs:  -> 74bb9c237687eeef72f224e77aaebeed
+  custom:scripting/monoscript/fileName/LayoutGroupNavigation.cs:  -> 518c6d259ca02544ac2fd1f08b83f073
+  custom:scripting/monoscript/fileName/VirtualInput.cs:  -> 5ee8d270a7fd6f8b164d9af4f11c6dfc
+  custom:scripting/monoscript/fileName/InventoryMonitor.cs:  -> c66df1ae185c39143214def3a073b02f
+  custom:scripting/monoscript/fileName/CurrencyView.cs:  -> d1b5ab9576c8ddd25497cbf5efd649fa
+  custom:scripting/monoscript/fileName/EquippedSelectItemView.cs:  -> 9c385e40f2c0d9f72c750c6f11e3f3b3
+  custom:scripting/monoscript/fileName/IInventorySystemDatabase.cs:  -> 6192b2fd2bb1f8fe753f699c0607d265
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainer.cs:  -> 4e9f15982d58cbc98de5556ee2101514
+  custom:scripting/monoscript/fileName/ItemDefinitionAmountsWithCategory.cs:  -> 19c451cb4786f70917e12a9f72c4d6f0
+  custom:scripting/monoscript/fileName/IEnumerableHelper.cs:  -> 982fef94b6e25b1cbbe27c8cc7e397fe
+  custom:scripting/monoscript/fileName/DynamicInventorySizeInventoryGridBinding.cs:  -> 225099ae292448c2a90965909248ad4c
+  custom:scripting/monoscript/fileName/GridPanel.cs:  -> 16f178b777af38d348d01682e3ff86b3
+  custom:scripting/monoscript/fileName/TextPanel.cs:  -> 266da4c24f83883daf5a71bda381707a
+  custom:scripting/monoscript/fileName/ItemAmounts.cs:  -> 8e101b42faa848549ad4cbf9c4544be2
+  custom:scripting/monoscript/fileName/ItemShapeGridData.cs:  -> 18ad741cc429bab66ae6b715293d834f
+  custom:scripting/monoscript/fileName/ItemRestrictionObject.cs:  -> 710dc0236a9a2c5063c808fde1bcbf65
+  custom:scripting/monoscript/fileName/InputEvent.cs:  -> 84f0882eb8894e7e4903eb939434244b
+  custom:scripting/monoscript/fileName/InventorySystemManagerItemSaver.cs:  -> 02a9b867a9edb83cd38f2c7aaf068c1e
+  custom:scripting/monoscript/fileName/CategoryItemActionSet.cs:  -> 0a99eb397619cec3eade6145e58e6b14
+  custom:scripting/monoscript/fileName/DropHoverIconPreviewItemView.cs:  -> d77062242aa605cd29a4db767f485a2d
+  custom:scripting/monoscript/fileName/IInteractorWithInventory.cs:  -> 3215c52ca2fcd0be0084144ddd663c16
+  custom:scripting/monoscript/fileName/CharacterNavMeshMover.cs:  -> da850b698470891bb9548f9bfae4c654
+  custom:scripting/monoscript/fileName/GateDoor.cs:  -> fb0430b8768ebf5d462699588651fcab
+  custom:scripting/monoscript/fileName/ItemObjectBehaviourLogItem.cs:  -> 40720b23886b35d3752e662d54070cb9
+  custom:scripting/monoscript/fileName/DomainResetter.cs:  -> 676727fb9bac14e9fe50c1cae479cb85
+  custom:scripting/monoscript/fileName/AttributeItemView.cs:  -> d6e428b49d84c965458c0af3ecc33c2f
+  custom:scripting/monoscript/fileName/ItemInfoNameSorter.cs:  -> db486954ba5cad39ef6719870d22bbd7
+  custom:scripting/monoscript/fileName/LayerMaskExtension.cs:  -> 7564519eabc97e2ab51837f00e7f6c54
+  custom:scripting/monoscript/fileName/CurrencyOwnerSaver.cs:  -> 69e467d5612cfc998d248fcd1a89fcbb
+  custom:scripting/monoscript/fileName/ItemInfoMultiFilterSorter.cs:  -> 08547831d963f14444b9456de173553f
+  custom:scripting/monoscript/fileName/ItemViewSlotDefinitionRestriction.cs:  -> 6837217f8bdaa1b68d70953cc7f24971
+  custom:scripting/monoscript/fileName/ItemDefinitionAttributeCollection.cs:  -> d5a33085d914968fd5aec502475dd366
+  custom:scripting/monoscript/fileName/ItemCategoryWithString.cs:  -> 9d7ef96d4111396c5952c93a0d160009
+  custom:scripting/monoscript/fileName/AttributeViewModule.cs:  -> f5a9a9d002c1fc5b2862691023c9eb4a
+  custom:scripting/monoscript/fileName/CategoryItemViewSet.cs:  -> 6592557ddc422ae687af35e0f6e04892
+  custom:scripting/monoscript/fileName/GridNavigator.cs:  -> 3b9e3b78aa3d3e59137061857f067a56
+  custom:scripting/monoscript/fileName/ShopAddRemoveBinding.cs:  -> a8075bd8aca1ee3a3b5cda9961373ff4
+  custom:scripting/monoscript/fileName/ItemViewSlotContainerNamedItemActionHandler.cs:  -> 3e3c46c6b74abdf33da2f9f997872750
+  custom:scripting/monoscript/fileName/ItemInfoAttributeValueSorter.cs:  -> d7adf5865eeab9eda22908c02f603612
+  custom:scripting/monoscript/fileName/ItemViewShapeDropAction.cs:  -> e94e285196a5edd6f24b4e600265936a
+  custom:scripting/monoscript/fileName/DebugItemObjectAction.cs:  -> 04bbff3eb4f07ade6cf0ef290b6f96b1
+  custom:scripting/monoscript/fileName/DemoCharacterEquipper.cs:  -> 3b3afeb2f9585f5f2d8a819dd0450f74
+  custom:scripting/monoscript/fileName/AudioConfigInspector.cs:  -> 23502b63d3717076c8922e405013b672
+  custom:scripting/monoscript/fileName/InventorySystemManager.cs:  -> 3d1410eea9a6c3be71978b2a9e50ba41
+  custom:scripting/monoscript/fileName/ItemObjectVisualizer.cs:  -> 9367234d6cc912dc7eea2bd6684b243d
+  custom:scripting/monoscript/fileName/IInventory.cs:  -> 3adc62fa688c4696d67f7fda8b9301f3
+  custom:scripting/monoscript/fileName/DynamicInventorySize.cs:  -> 4e9ee04a40c3f786b61e3d322bf47708
+  custom:scripting/monoscript/fileName/ItemUser.cs:  -> 83221539b3868475085bc7107e6a3581
+  custom:scripting/monoscript/fileName/IObjectWithID.cs:  -> 97b62cb038de0b000e2f8facc584831b
+  custom:scripting/monoscript/fileName/ItemActionWithAsyncFuncActionPanel.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ItemShapeSelectedItemView.cs:  -> 8166571d802d6e9ef148ac5cccff0208
+  custom:scripting/monoscript/fileName/ItemSlotCollectionView.cs:  -> b96d843e87db50d27cb200ad0beb29f2
+  custom:scripting/monoscript/fileName/ItemOverflowActionWithItemAction.cs:  -> 7e242f1f4857741cda68ea87645e4485
+  custom:scripting/monoscript/fileName/BasicSaveMetaDataCreator.cs:  -> 4607241158fb8f481c7c786d2a4f3c1b
+  custom:scripting/monoscript/fileName/PartOfOtherContainerItemView.cs:  -> 688f2323face5e2291b8a8a940eab445
+  custom:scripting/monoscript/fileName/TabToggle.cs:  -> a0c734e79726f077522cd90acee04e77
+  custom:scripting/monoscript/fileName/Currency.cs:  -> eb53618fa52503ceec1aeb9521bf40ac
+  custom:scripting/monoscript/fileName/AttributeView.cs:  -> e73cd103d893e87a62d2788629364118
+  custom:scripting/monoscript/fileName/CustomAttributes.cs:  -> 1c446a03dfd53f5faea082b16c776d13
+  custom:scripting/monoscript/fileName/UnAssignHotbarItemAction.cs:  -> fcab3d24b852d4d6c4c419ba5f4d0e4b
+  custom:scripting/monoscript/fileName/OpenOtherItemViewSlotContainerItemAction.cs:  -> 3081d9efe182daca797e3759366336ed
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerItemAction.cs:  -> 727e36be1fce9a81613c410b397a1051
+  custom:scripting/monoscript/fileName/ItemViewDropNullItemCondition.cs:  -> 343ea78e7d44fdbd93007bdced7d6bf6
+  custom:scripting/monoscript/fileName/IDamageable.cs:  -> 61019c27a80c66b2ace6c36922268007
+  custom:scripting/monoscript/fileName/GraphicRaycasterTarget.cs:  -> f50d7ebb6fa4c38d2c5578c8dc12d2b4
+  custom:scripting/monoscript/fileName/ItemStack.cs:  -> 2eb7d692657538cdddf5f59c20417a4a
+  custom:scripting/monoscript/fileName/SelectView.cs:  -> 09f9db35318d8178ca84bf92fff48cb6
+  custom:scripting/monoscript/fileName/ICategoryElement.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ItemInfo.cs:  -> 76718d1d590255e6d2f4c9187eeab79c
+  custom:scripting/monoscript/fileName/DisplayPanelBinding.cs:  -> 0ba0efdc4766787f1a2ede3ff57c730c
+  custom:scripting/monoscript/fileName/ValueToSpriteItemView.cs:  -> b1f51f268586b9b8361134b4ecb9033e
+  custom:scripting/monoscript/fileName/UsableEquippedItemsHandler.cs:  -> 85e9b4cadf1162d7769acf5c0e065335
+  custom:scripting/monoscript/fileName/IItemViewSlotsContainer.cs:  -> 3d51bb6cb2e497cf8be51293052bf86f
+  custom:scripting/monoscript/fileName/InventorySystemDatabase.cs:  -> 0c5e1fba608b65175ee1a9a6e3248498
+  custom:scripting/monoscript/fileName/DropItemAction.cs:  -> 93f251558592d9652b7a0c5956f009ac
+  custom:scripting/monoscript/fileName/ItemViewDropContainerHasNameCondition.cs:  -> da2905930581ea922a5b52915dc2e0a7
+  custom:scripting/monoscript/fileName/ItemAmountsWithCategory.cs:  -> 33b900c53699a5e558775ca386fca324
+  custom:scripting/monoscript/fileName/ItemObject.cs:  -> f0cd4ba3725667cf74bfca3de86a4997
+  custom:scripting/monoscript/fileName/SkinnedMeshStitcher.cs:  -> 4de292f9fe9c8501d49db2ad95e33584
+  custom:scripting/monoscript/fileName/ItemShapeItemView.cs:  -> c95f19e67c1bac0d5c034ceaa738aa8e
+  custom:scripting/monoscript/fileName/ConfirmCancelPanel.cs:  -> 50fb06effb56b7b8e0eda2daa9210da2
+  custom:scripting/monoscript/fileName/ItemViewDropSameContainerCondition.cs:  -> 6f9188de38f74f81cdb950524a41ff89
+  custom:scripting/monoscript/fileName/PanelOpener.cs:  -> 6fe619a2fe9cbe42b2c1a8b309bd6256
+  custom:scripting/monoscript/fileName/ItemCollection.cs:  -> bda5430197803ae7eb013472e5ffee3f
+  custom:scripting/monoscript/fileName/ItemViewSlotPanelToTooltip.cs:  -> 1613e22b5bb6a52220a8a6f7d7ce6d31
+  custom:scripting/monoscript/fileName/SettableActionPanel.cs:  -> d824fb0aed2bb2d8a3be25ee14ba2b7d
+  custom:scripting/monoscript/fileName/DynamicItemCategory.cs:  -> 8f456ac486aa304b6946d4ebc9ccadf9
+  custom:scripting/monoscript/fileName/ObjectInspector.cs:  -> 8d41c5d3709464017b2905a5ba2efbd6
+  custom:scripting/monoscript/fileName/GameObjectSaver.cs:  -> 76e454a1529de5adc8cab817ba108d06
+  custom:scripting/monoscript/fileName/CurrencyAmount.cs:  -> 4f9c535cee3a3c9379ef97926295c3fc
+  custom:scripting/monoscript/fileName/ItemDefinition.cs:  -> 50a82efc41023a44af43e343cec13a7a
+  custom:scripting/monoscript/fileName/RandomItemDropper.cs:  -> 1cd08677d646d9a3eb4c5a41d09dfe60
+  custom:scripting/monoscript/fileName/ButtonAudio.cs:  -> 1dcc7023f3754253750302637f41722a
+  custom:scripting/monoscript/fileName/PlayerInputProxy.cs:  -> ef1f93e99447083f828dc5c3df982c49
+  custom:scripting/monoscript/fileName/DemoConsumeItemAction.cs:  -> e8e9c564a6e0d24a3c5ba5fb287c3495
+  custom:scripting/monoscript/fileName/ShopInt.cs:  -> 09a6b55377c6694dbbad375fab2a74d0
+  custom:scripting/monoscript/fileName/ItemShapeGridController.cs:  -> 4fb3c5357d1090e43edc4e1b328db706
+  custom:scripting/monoscript/fileName/CurrencyOwnerMonitor.cs:  -> cd799bdb75985ab276b6110df1609141
+  custom:scripting/monoscript/fileName/DisplayPanelSelector.cs:  -> 758746ce8c33af680f89fe9f46c1d1b8
+  custom:scripting/monoscript/fileName/CraftingCategory.cs:  -> 905be3dedb339a64b31fd2641b246ccb
+  custom:scripting/monoscript/fileName/ItemAmount.cs:  -> 60350aa9a38f958d87ed5d20d890f5f2
+  custom:scripting/monoscript/fileName/InputBase.cs:  -> c25331fccb041d2ab8d28b343561a337
+  custom:scripting/monoscript/fileName/DynamicPanelOwner.cs:  -> 66b08c33bfe0c7d8650786f616695d41
+  custom:scripting/monoscript/fileName/GlobalRegister.cs:  -> c3e6bf53b07481e2434cc212841f5caf
+  custom:scripting/monoscript/fileName/CraftingMenuBase.cs:  -> 1430d5668cabf703f206c7c6f6f8e81e
+  custom:scripting/monoscript/fileName/Item.cs:  -> b2ce25298707bfd14cb6aa8c2c0c6830
+  custom:scripting/monoscript/fileName/ButtonViewSlot.cs:  -> d6d9ee14b882f79adf7d6ca1a2aad47c
+  custom:scripting/monoscript/fileName/InventoryInteractor.cs:  -> eb735380d801248a7603cf8cb20849e8
+  custom:scripting/monoscript/fileName/DisplayPanelManagerRegister.cs:  -> 5c9ea55965aec7c5ab178556cd843ace
+  custom:scripting/monoscript/fileName/EquippedItemView.cs:  -> 47f29ce941712bfe7c870b084ef3e8c9
+  custom:scripting/monoscript/fileName/CurrencyDropper.cs:  -> 5735b0baadd1b4b88fd3f1dc04cc3619
+  custom:scripting/monoscript/fileName/CurrencyCollection.cs:  -> e86a17495a2cb186a95b3033d83af451
+  custom:scripting/monoscript/fileName/ItemTransactionCollection.cs:  -> 9d9cc6272912cb12b03286bab0bbd462
+  custom:scripting/monoscript/fileName/IInteractable.cs:  -> 0212de470c615227609406d82147c39c
+  custom:scripting/monoscript/fileName/IActionWithPanel.cs:  -> 804c43d2f432887e6cab56f0d097808e
+  custom:scripting/monoscript/fileName/CraftingRecipeRegister.cs:  -> d655b6796ef7670cf25cb1e9dbd705db
+  custom:scripting/monoscript/fileName/ItemOverflowAction.cs:  -> 0146e68d167c985583d98389e1b34968
+  custom:scripting/monoscript/fileName/SaveDataInfo.cs:  -> bac72f7cd3a0ff7fcf23678bd419074b
+  custom:scripting/monoscript/fileName/ItemViewSlotCursorManagerRegister.cs:  -> 24e2f049019270628e665f49436dd565
+  custom:scripting/monoscript/fileName/UpgradableItemDescription.cs:  -> 707e8a406b1fc106f859147c768ae200
+  custom:scripting/monoscript/fileName/MenuInteractableBehavior.cs:  -> 60ff73e97adbf5e9c3aea41d4669319b
+  custom:scripting/monoscript/fileName/GridNavigatorWithScrollView.cs:  -> 362bfaf62aeb26989bca16c7ac276974
+  custom:scripting/monoscript/fileName/IntAttributeItemView.cs:  -> 7c7dc2f990051b1092436087dae69837
+  custom:scripting/monoscript/fileName/Dropper.cs:  -> c20758dc1a95617c88601492b6803e23
+  custom:scripting/monoscript/fileName/ItemDefinitionRegister.cs:  -> 9bf5c259d66cb1c746a83d19a6e7a3b6
+  custom:scripting/monoscript/fileName/ItemActionWithQuantityPickerPanel.cs:  -> 6252202a53af71f82d6086062390c9df
+  custom:scripting/monoscript/fileName/ItemCategory.cs:  -> 5663a7390b4cb9adfc07336129cc279d
+  custom:scripting/monoscript/fileName/ActionPanel.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/InventoryPanelBinding.cs:  -> bb019e2702fe14d7bca71f525bbec554
+  custom:scripting/monoscript/fileName/CurrencyItemView.cs:  -> 67a8b28cde64f47691d4c82ad3138d72
+  custom:scripting/monoscript/fileName/ItemViewModuleSelectable.cs:  -> bc7f5d611998f58b8ccae70c16599b9a
+  custom:scripting/monoscript/fileName/ShopMenuOpener.cs:  -> bb3494ebfbf7d200f32c17f35fd43c4e
+  custom:scripting/monoscript/fileName/ProjectileSpawner.cs:  -> 3fc317398a53c46333d327af87c68c44
+  custom:scripting/monoscript/fileName/ValueAttributeView.cs:  -> d1a0be010b7f0babaab6ec70d342b123
+  custom:scripting/monoscript/fileName/ItemObjectBehaviourHandler.cs:  -> 48d5c6f2c9adfb01431e143321a93bbb
+  custom:scripting/monoscript/fileName/AudioManagerModule.cs:  -> d71d79a26612517f3f5a0b6be4fa7331
+  custom:scripting/monoscript/fileName/IEquipper.cs:  -> 90c7a47ab5289f752d2e4c8db148674f
+  custom:scripting/monoscript/fileName/ItemInfoAmountSorter.cs:  -> f2644475ce173f8ca3fdad6f0ff6e44a
+  custom:scripting/monoscript/fileName/SaveGrid.cs:  -> 072310f78bb6e2342a1c1a209bdda815
+  custom:scripting/monoscript/fileName/InventoryIdentifier.cs:  -> bf33bb530718c3c52a56c247b4d90a8d
+  custom:scripting/monoscript/fileName/GroupItemRestriction.cs:  -> b80bfe1e45b418cdbccc2149224c120e
+  custom:scripting/monoscript/fileName/ItemViewDrawer.cs:  -> b29ac5e1d1109c60c787f56287f557ea
+  custom:scripting/monoscript/fileName/InventoryGridTabControlBinding.cs:  -> 85c70ddf4fd3c28b9ad401073806c8ea
+  custom:scripting/monoscript/fileName/AudioMusic.cs:  -> db7e6cee326f464de246c4f702242c18
+  custom:scripting/monoscript/fileName/DemoInventoryDatabaseNames.cs:  -> 09c793e91ebfbb171f0c1364a829c33c
+  custom:scripting/monoscript/fileName/CharacterMover.cs:  -> b386da2a6c9557c511343ea7ae85b9b1
+  custom:scripting/monoscript/fileName/ItemAmountsWithDefinition.cs:  -> e941d909512896f24e3a67341b86c412
+  custom:scripting/monoscript/fileName/IInventorySystemManager.cs:  -> a5f1dfd47d3d15ae8fe6c890aa62a6af
+  custom:scripting/monoscript/fileName/TextComponent.cs:  -> 7c7276ac0d5727ede3a960f22e7e2890
+  custom:scripting/monoscript/fileName/GroupItemRestrictionObject.cs:  -> f471776ad9247f17f67df22e41a480c7
+  custom:scripting/monoscript/fileName/DebugItemAction.cs:  -> 7811b57290adcc23ef4b9363eb699737
+  custom:scripting/monoscript/fileName/DamagePopupSpawner.cs:  -> 26faf411dd29c6e13f60379619e04079
+  custom:scripting/monoscript/fileName/UnityInput.cs:  -> dbc71cc4a7a622710c502e7a29403d89
+  custom:scripting/monoscript/fileName/Rotator.cs:  -> d747a9ade6f73a5915bd487a248600fc
+  custom:scripting/monoscript/fileName/ImportStatus.cs:  -> c59d844a4650241b8b6bd1b0fcf431e4
+  custom:scripting/monoscript/fileName/ItemViewSlotDragHandler.cs:  -> 5656e9614fa44eef4077df5de14ff540
+  custom:scripting/monoscript/fileName/ItemViewDropMoveIndexAction.cs:  -> 7a8e7f25b17c0389e0de072fc7de3285
+  custom:scripting/monoscript/fileName/ItemCategoryAmounts.cs:  -> f03147b92f32e2763e5311e661ab310b
+  custom:scripting/monoscript/fileName/PlayResult.cs:  -> b5384c41ac111a0c20ee8804f69bb093
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerBinding.cs:  -> cf623d742744eda20f1fb93539077f97
+  custom:scripting/monoscript/fileName/ShopBase.cs:  -> 787e82981e30e7b25c497293a69de85b
+  custom:scripting/monoscript/fileName/AttributeCollection.cs:  -> 2ea7fc8b4391d64926f78d4f24ebf5dd
+  custom:scripting/monoscript/fileName/SaveViewDrawer.cs:  -> af5133c5757e14c6b789a1e38e1e3e9f
+  custom:scripting/monoscript/fileName/CurrencyOwner.cs:  -> 24345761c5704c482e09c755cc399d45
+  custom:scripting/monoscript/fileName/NameValueAttributeView.cs:  -> 32d1e1641b620bdb99fdcb002fbba0ac
+  custom:scripting/monoscript/fileName/SchedulerBaseInspector.cs:  -> 00c4a18b6023738bfe024e528e3bc631
+  custom:scripting/monoscript/fileName/ActionElement.cs:  -> 1eb5101eff6bcfe31abbc118ad51abb4
+  custom:scripting/monoscript/fileName/ItemViewDropPlayAudioClip.cs:  -> 0bebb0d6d247bfca2028fe81aa05f14a
+  custom:scripting/monoscript/fileName/StorageMenu.cs:  -> 3a9cfa4be605e1333382eb88bd0f841f
+  custom:scripting/monoscript/fileName/ItemHotbar.cs:  -> b1dd02209e1f4d393b9ec8aa73dfa38e
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerCategoryItemActionSetBinding.cs:  -> 3b3c62b838dfd7eacbec33c9bdf4cd82
+  custom:scripting/monoscript/fileName/AdjustItemAmountInputField.cs:  -> dc759c534e2f2deb71533cdba3d27713
+  custom:scripting/monoscript/fileName/IDAmountSaveData.cs:  -> 0c8c65e645ddf1d14219329d1251e2f7
+  custom:scripting/monoscript/fileName/RangeAttack.cs:  -> fbfbf05089bbf643934905865f7c6e13
+  custom:scripting/monoscript/fileName/InteractableBehavior.cs:  -> df11512309456f947b8fdb9216f551a3
+  custom:scripting/monoscript/fileName/Flash.cs:  -> bc4e5133e3d94607ffe07c371f0dcc8d
+  custom:scripting/monoscript/fileName/CraftingMenu.cs:  -> 29b4f4c3651613967f6934f141b17552
+  custom:scripting/monoscript/fileName/UnityInputInspector.cs:  -> 0dce0556b1462363f4e6635156f220d5
+  custom:scripting/monoscript/fileName/VirtualButton.cs:  -> 2257da2e9924cbdb0a1045cb1ab6f28b
+  custom:scripting/monoscript/fileName/Scheduler.cs:  -> b711313c3799dd72331d27095ffb018e
+  custom:scripting/monoscript/fileName/PlayerCharacter.cs:  -> 84df9e6cd31346f3c9e4b502d662faf8
+  custom:scripting/monoscript/fileName/EnemyCharacter.cs:  -> 6b0ea7c6c6f9291115f361df5ff50d85
+  custom:scripting/monoscript/fileName/ItemDescriptionPanelBinding.cs:  -> 9f8328919b6345f525c8e53772fca11a
+  custom:scripting/monoscript/fileName/RecipeAttributes.cs:  -> ff8a8b02520da6242e5abb3e2bef841a
+  custom:scripting/monoscript/fileName/PlayerInputInspector.cs:  -> 9510eee46724473a2b41b213ddb847b1
+  custom:scripting/monoscript/fileName/CharacterAnimator.cs:  -> fd4433c953b13f51c93809d754ea37e0
+  custom:scripting/monoscript/fileName/CategoryRestrictionIconItemView.cs:  -> b5162db9d417a3439540e3b05f63e3dd
+  custom:scripting/monoscript/fileName/SaveData.cs:  -> ce266fd9e409a4b403890595f6bfe79b
+  custom:scripting/monoscript/fileName/AudioClipInfo.cs:  -> f2813ad077d20802b616e39e16ac9728
+  custom:scripting/monoscript/fileName/ItemShapeGridDataSaver.cs:  -> f2d4b3a2cfe2112c9ec9fec9d38ec581
+========================================================================
+Received Import Request.
+  Time since last request: 197.730463 seconds.
+  path: Assets/Opsive/UltimateInventorySystem
+  artifactKey: Guid(b7d2f2e42d16c5e46a9f8020eb57e16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateInventorySystem using Guid(b7d2f2e42d16c5e46a9f8020eb57e16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510d5db8d977e858ac4c7e7c53b73797') in 0.003095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.619 seconds
+Refreshing native plugins compatible for Editor in 6.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.462 seconds
+Domain Reload Profiling: 2076ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (287ms)
+		LoadAssemblies (392ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1462ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (804ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (654ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 3586.
+Memory consumption went from 130.6 MB to 129.9 MB.
+Total: 4.095800 ms (FindLiveObjects: 0.326300 ms CreateObjectMapping: 0.323300 ms MarkObjects: 3.073800 ms  DeleteObjects: 0.371200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/AttributeUtility.cs: a716ace3a682d98d201608ab355d73d1 -> 35cd67e6ef29078ec4ef7d7a0fe4dd19
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/InspectorUtility.cs: 1cf92e4af45cb9e9886ec49564b001a9 -> e19c2853cd61f2778b8e7201df90876e
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Text.cs: f3cd2527cc0cf233b21b58a0a7d6ebc9 -> c729f6848f27e5e10271b8554c1e40e8
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Crafter.cs:  -> 9081fcf797aa3c6acd00b48aee62ecee
+  custom:scripting/monoscript/fileName/CraftingRecipeGrid.cs:  -> 47404b59f0bbd604d61512a21fdac321
+  custom:scripting/monoscript/fileName/SaverBase.cs:  -> cc5ce6f278cda4d633bf2d7eb2c318ac
+  custom:scripting/monoscript/fileName/ItemRestrictionSetObject.cs:  -> f2cdeac577ae881712c238f53a30ba94
+  custom:scripting/monoscript/fileName/DisplayPanelManagerHandler.cs:  -> 41039b6311360ffaac8d99caa1f0fc07
+  custom:scripting/monoscript/fileName/ItemViewSlotRestriction.cs:  -> ac77e676cc4c73d03ee23c581cc98432
+  custom:scripting/monoscript/fileName/RangeAttackBullet.cs:  -> 091f35cad39348838b7456ca92920b97
+  custom:scripting/monoscript/fileName/MainMenu.cs:  -> 34900bd8e4eba49423517705ff13839c
+  custom:scripting/monoscript/fileName/ValueToColorAttributeView.cs:  -> 829e9951fb1e5e322cd6965dd08ef476
+  custom:scripting/monoscript/fileName/MoveToCollectionItemAction.cs:  -> 6cd9b70b31a1d0fddb2eaa4a07cbde66
+  custom:scripting/monoscript/fileName/ItemActionBindingItemViewModule.cs:  -> 910d136f59fef73df51dec8ccec3d6a2
+  custom:scripting/monoscript/fileName/InventoryGridIndexDataSaver.cs:  -> 1b7f152fc771553be977e6b593782897
+  custom:scripting/monoscript/fileName/VirtualControlsManager.cs:  -> e32bb747c3a772f339f83fd21ab9da3a
+  custom:scripting/monoscript/fileName/ItemAction.cs:  -> 5dbcdeb2ab9fa5198d6bb3c95ac14649
+  custom:scripting/monoscript/fileName/ItemViewDropInventoryGiveAction.cs:  -> 4d1ec649d8ca9429949c7ec43eae8c2f
+  custom:scripting/monoscript/fileName/ItemViewDropContainerSmartExchangeAction.cs:  -> 416844a75d3d307d2a64b1e1f0dffcd8
+  custom:scripting/monoscript/fileName/CurrencyAmounts.cs:  -> ed0683b189d2d8dcee1758ef03abd399
+  custom:scripting/monoscript/fileName/GridNavigatorWithScrollbar.cs:  -> 3741e5c602413afb126db96def630f87
+  custom:scripting/monoscript/fileName/ItemInfoGridSorterBinding.cs:  -> a88938c68e842dfc61432b4db3aa6fdc
+  custom:scripting/monoscript/fileName/AttributeViewForItemViewModule.cs:  -> 851365fa1cd7f18e433838d184133206
+  custom:scripting/monoscript/fileName/ItemCollectionStackSizeRestriction.cs:  -> d521b02d4f6c88685065f496a27f0a3f
+  custom:scripting/monoscript/fileName/ItemShapeDropPreviewItemView.cs:  -> fe77a92004514be724468b1eaae0defa
+  custom:scripting/monoscript/fileName/RandomInventoryPickup.cs:  -> 28bfccb8c43db10a7b1bc55968e3624a
+  custom:scripting/monoscript/fileName/ItemCategoryRegister.cs:  -> 6119df4ddaa3419f04c445d7cbeffe93
+  custom:scripting/monoscript/fileName/ItemViewDropItemAmountCondition.cs:  -> 79faa441730f9c4fbf60776beea13707
+  custom:scripting/monoscript/fileName/Attribute.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/IPlayerInput.cs:  -> af9a3f4a48761e60e58cab7db894c041
+  custom:scripting/monoscript/fileName/ItemUpgradePanel.cs:  -> 3987c5ad4a0d93c363315d1dec4b7967
+  custom:scripting/monoscript/fileName/OnValidateUtility.cs:  -> 2546748804143c49cbed8c270c98cd91
+  custom:scripting/monoscript/fileName/ItemObjectBehaviour.cs:  -> 6cdf04a9f6b9a69e3a15e0ddb1d54b52
+  custom:scripting/monoscript/fileName/NameItemView.cs:  -> e6228c109d8de8fe413438212734bcb4
+  custom:scripting/monoscript/fileName/DisplayPanelDragHandler.cs:  -> 35c148a7850174e06891ffdf16e84646
+  custom:scripting/monoscript/fileName/EnableDisableInventoryInput.cs:  -> 9cd965b3ccbf0b74873cd6c4c0a75ae6
+  custom:scripting/monoscript/fileName/GeneratedStubTypes.cs:  -> 9c20b8baa831164e21c7cf7990c4ddee
+  custom:scripting/monoscript/fileName/ItemAdderRemover.cs:  -> 7f1faadc8c4682d5f425b7ef7dedf296
+  custom:scripting/monoscript/fileName/RelativeTooltip.cs:  -> cd48137328fcc657f9640214274ab61f
+  custom:scripting/monoscript/fileName/ItemShapeRectPlacerItemView.cs:  -> ab0c0ca523a87e4deb99a27a9d70407c
+  custom:scripting/monoscript/fileName/ItemShape.cs:  -> ed7f6de3e0585780bdb476ad099ee6b1
+  custom:scripting/monoscript/fileName/MeleeAttack.cs:  -> e2133ffd9a4726f898ee2eeb94beb5ad
+  custom:scripting/monoscript/fileName/FirstOutputRecipeView.cs:  -> 34ea898b1610c782a6f226c507dabf57
+  custom:scripting/monoscript/fileName/CurrencyRegister.cs:  -> 79f950fecec4dc0861fdb8820515348c
+  custom:scripting/monoscript/fileName/CraftingProcessor.cs:  -> ccac8d3e06b923e9b07758c736824312
+  custom:scripting/monoscript/fileName/AmountItemView.cs:  -> 21324a0af222e35e824bc51d4a8a6940
+  custom:scripting/monoscript/fileName/IObjectAmounts.cs:  -> 59d515ddb561109d007cbbbb1afa510d
+  custom:scripting/monoscript/fileName/ItemView.cs:  -> ead0117a7c50a4078d98e4c7ca1d472e
+  custom:scripting/monoscript/fileName/ItemAmountProbabilityTable.cs:  -> 27a4c72d02ff34614c6da3ea2055e84f
+  custom:scripting/monoscript/fileName/DemoCompareAttributeView.cs:  -> 235b0cc11009a5179bb331eeb057d27f
+  custom:scripting/monoscript/fileName/ItemViewSlot.cs:  -> b9db6ed7ee1eeb8a692bb799fcb72116
+  custom:scripting/monoscript/fileName/ItemViewSlotContainerItemActionHandler.cs:  -> b4faf78692901ae77a85f9a0339f63da
+  custom:scripting/monoscript/fileName/InventoryInput.cs:  -> 60cdb382244fb35e9e921d4479f4d25d
+  custom:scripting/monoscript/fileName/ItemInfoCategoryFilter.cs:  -> d5fadf8d6d359004d80ab0086c7c5e31
+  custom:scripting/monoscript/fileName/AudioManager.cs:  -> 026632d8a9e26c75fe73e1e89494b47b
+  custom:scripting/monoscript/fileName/ItemCollectionCategoryRestriction.cs:  -> 65e4a26d41d001af01f6ba25bdf560fa
+  custom:scripting/monoscript/fileName/ItemActionSet.cs:  -> 325d480714fcf7af39e88cacf426e2d8
+  custom:scripting/monoscript/fileName/DragOffView.cs:  -> c3b934149fd87a5fed3265dbf69e50bd
+  custom:scripting/monoscript/fileName/GridBase.cs:  -> 4ce056ce7e1f489d499fe2b39a09ad58
+  custom:scripting/monoscript/fileName/ButtonsOpenPanel.cs:  -> 3a3e97a73fda46c46405a89ab805adfa
+  custom:scripting/monoscript/fileName/IInventoryDependent.cs:  -> 873af99eaf6970148e560609ae4359e5
+  custom:scripting/monoscript/fileName/QuantityPicker.cs:  -> d0774b466fc5faeafd73e6cfefd8cb71
+  custom:scripting/monoscript/fileName/CurrencyPickup.cs:  -> 4de7b1ee254f1b920525d9ebf1939aeb
+  custom:scripting/monoscript/fileName/CraftingOutput.cs:  -> 7d53a2dab3e6f4a70171da2c4fcfa009
+  custom:scripting/monoscript/fileName/IterationHelper.cs:  -> 2e97d36a9c2c70be2465a2e2b5b69c42
+  custom:scripting/monoscript/fileName/InventoryStandardInput.cs:  -> 2ed12c18299ae028aefd999a927d298f
+  custom:scripting/monoscript/fileName/DemoEventNames.cs:  -> faf4a8fb9a7ce1381efd4c500a986c98
+  custom:scripting/monoscript/fileName/InspectorDrawerUtility.cs:  -> b4045e62c230ce0fc155b962b0f164a3
+  custom:scripting/monoscript/fileName/MoveItemAction.cs:  -> cc7a3731dce5cad4f0f05841f8df4502
+  custom:scripting/monoscript/fileName/ItemViewDropSpawnItemObjectAction.cs:  -> d66416232702c3fcf70dd40db480625e
+  custom:scripting/monoscript/fileName/ItemPickup.cs:  -> f6e2e374e7aa4d906b710c79095e61e0
+  custom:scripting/monoscript/fileName/CategoryAttributeViewSetItemViewModule.cs:  -> 49f68ebaf4f8e3961827ae41016880bd
+  custom:scripting/monoscript/fileName/Equipper.cs:  -> bea8ec5ac01fdf03fa9f7a02fdf7e741
+  custom:scripting/monoscript/fileName/ImageAndText.cs:  -> 85264d783b6ee6eebc97c3a61b590e76
+  custom:scripting/monoscript/fileName/DemoThrowItemAction.cs:  -> 468fd16ade5e924ae53a82f1ddb2757a
+  custom:scripting/monoscript/fileName/ActiveInputEvent.cs:  -> 73b0d3341ea498f14e3448a25adf21e0
+  custom:scripting/monoscript/fileName/ItemViewDropActionToItemAction.cs:  -> faf8f2971fdcfe7eeed011c923efff55
+  custom:scripting/monoscript/fileName/ItemViewDropFromItemCollectionCondition.cs:  -> 43c3d502dc8b83dc418ca246d8ee5f97
+  custom:scripting/monoscript/fileName/CraftingIngredients.cs:  -> 6c1ae06facf7d350620857f0c3bae3df
+  custom:scripting/monoscript/fileName/EquipperBase.cs:  -> 4d06ef13963cbfbf8d3d6137109b9248
+  custom:scripting/monoscript/fileName/EventNames.cs:  -> 000072928fd07eb4626070bdac2fa09c
+  custom:scripting/monoscript/fileName/RecipeView.cs:  -> fd60a8d47635ef6cd8e414444f6bedfc
+  custom:scripting/monoscript/fileName/CraftingRecipeViewDrawer.cs:  -> 9a8060c0c7f195f8ad375f788dec5b62
+  custom:scripting/monoscript/fileName/InterfaceUtility.cs:  -> 239ba099b978756c0b0cdc83fac2de50
+  custom:scripting/monoscript/fileName/ItemCategoryAttributeCollection.cs:  -> 8191f73a413f2b7a259ff9089b7d6158
+  custom:scripting/monoscript/fileName/ItemViewDropContainerCanMoveCondition.cs:  -> 4ce47f2e4429a01c2b9a352ee991f682
+  custom:scripting/monoscript/fileName/TabControl.cs:  -> 22500a3691ddb804df1c134ae4b96fb1
+  custom:scripting/monoscript/fileName/Interactable.cs:  -> 91bdf9f92c135862d6fc15aa9b1473da
+  custom:scripting/monoscript/fileName/VirtualTouchpad.cs:  -> a6d12a27d865a3e639fc987770f2f172
+  custom:scripting/monoscript/fileName/CraftingCategoryRegister.cs:  -> befe96dc53bce89c73ee3a0e8bdd4fa5
+  custom:scripting/monoscript/fileName/EnableDisableItemViewModule.cs:  -> 43e94d3c94a2a10153c45297fb37a61f
+  custom:scripting/monoscript/fileName/RandomCurrencyDropper.cs:  -> 495b0fa7e0f823738592b616596614a9
+  custom:scripting/monoscript/fileName/ViewSlot.cs:  -> 8e5fbff98806e5de6f801c29d976a7f8
+  custom:scripting/monoscript/fileName/ItemAttributeCollection.cs:  -> d0a14ed06e8d10e78e102eae5f6af846
+  custom:scripting/monoscript/fileName/AdjustCurrencyAmountInputField.cs:  -> a3ba8b6bcedc3696ad7fb9471cd2bcf8
+  custom:scripting/monoscript/fileName/ItemRegister.cs:  -> 37fd127305b666eab284de3293364650
+  custom:scripting/monoscript/fileName/CraftingResult.cs:  -> a5ef5958b0d52455a0069f32ea88a5c7
+  custom:scripting/monoscript/fileName/IDamager.cs:  -> 79f0b41da1f89a37cefaa4853387133c
+  custom:scripting/monoscript/fileName/InventoryMirrorHotbar.cs:  -> 0c241a3775f81c30a43964df33c76384
+  custom:scripting/monoscript/fileName/SaveMenu.cs:  -> 9d7b05ae86eda1c691820ca7173792e0
+  custom:scripting/monoscript/fileName/DisplayPanel.cs:  -> 65fde6afde917f28cd9b422609084929
+  custom:scripting/monoscript/fileName/DetailsItemView.cs:  -> e58bf0d1e6d488615870234c0b6b6801
+  custom:scripting/monoscript/fileName/MultiItemAction.cs:  -> 5bb96b64932f6e9add7672fc3631033c
+  custom:scripting/monoscript/fileName/CraftingMenuOpener.cs:  -> cf428428660ec8d7278e27242b9ecdc6
+  custom:scripting/monoscript/fileName/CraftingRecipe.cs:  -> 93eee83f49e3ecee67db53c118689b96
+  custom:scripting/monoscript/fileName/VirtualAxis.cs:  -> f8130b2da02a9fd4740120288560841a
+  custom:scripting/monoscript/fileName/AudioConfig.cs:  -> f6be977545f4cc89330591a4b70ea15b
+  custom:scripting/monoscript/fileName/ObjectAmounts.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/CraftingRecipeFilter.cs:  -> 9924310a8be24b1541acb9c3a0f61f83
+  custom:scripting/monoscript/fileName/ItemDefinitionAmount.cs:  -> 08f42a112cc9b215342d14081305a5ac
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerPanelBinding.cs:  -> bf474e2b00de7922a0dec66ac80c49bf
+  custom:scripting/monoscript/fileName/ItemViewSlotCategoryRestriction.cs:  -> 3c5409b7642a76930b75eb7a4ac71c4b
+  custom:scripting/monoscript/fileName/ChestLockedMessage.cs:  -> 312846cded92aa693ab71ff9fda7b0c5
+  custom:scripting/monoscript/fileName/InventoryAmountItemView.cs:  -> 3d3043c9042518eead81ba9f1743bc3d
+  custom:scripting/monoscript/fileName/AsyncFuncActionsPanel.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/EnemyRespawnerTrigger.cs:  -> 2e904be43b09c608c6ac23650b46194a
+  custom:scripting/monoscript/fileName/CharacterInput.cs:  -> ed4d745d36993266ce93147fe369d17f
+  custom:scripting/monoscript/fileName/Damageable.cs:  -> d6971aa8234571aea3c142cc817abe45
+  custom:scripting/monoscript/fileName/CraftingIngredientsWithCurrency.cs:  -> b338e131882ff6ef3ee836884e56300d
+  custom:scripting/monoscript/fileName/AsyncFuncAction.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/SaveViewModule.cs:  -> 1064e7a76e7f86dfeb94cecb99a77f26
+  custom:scripting/monoscript/fileName/ItemObjectAction.cs:  -> 6ad74afabe9a049f282e39ef1686b0f1
+  custom:scripting/monoscript/fileName/ButtonWithText.cs:  -> 7ac028a86d267ccbbb5bf6d30415a047
+  custom:scripting/monoscript/fileName/Bomb.cs:  -> 1f4a6bd0288001afc22194b40785d4e4
+  custom:scripting/monoscript/fileName/PlayAudioClipItemAction.cs:  -> 8811fb576f67860c5c63a7cc794bd03b
+  custom:scripting/monoscript/fileName/CraftingRecipeMultiFilterSorter.cs:  -> 3efad89865539d408136c72be5b121f2
+  custom:scripting/monoscript/fileName/MultiStackItemCollection.cs:  -> 8dfd17be0394ef663573ce2286e361f1
+  custom:scripting/monoscript/fileName/IconItemView.cs:  -> 3c91c0a61274362d9a647f6ed740b9f2
+  custom:scripting/monoscript/fileName/PanelDragHandler.cs:  -> a525812b36459704ceeee8975277ecf2
+  custom:scripting/monoscript/fileName/ItemActionCollection.cs:  -> 5a4ac808469cc953c313d0d64d0bcf8c
+  custom:scripting/monoscript/fileName/ItemViewDropContainerGiveAction.cs:  -> c7b5cf980b9e47f52f902f4495958ffd
+  custom:scripting/monoscript/fileName/ItemViewSlotDropActionSet.cs:  -> 7b79a8755e6d000188dd3996e61bbc15
+  custom:scripting/monoscript/fileName/DemoCharacterDamageable.cs:  -> c172dd5cea3b3225652d4075f693d2ed
+  custom:scripting/monoscript/fileName/QuantityPickerPanel.cs:  -> c9eaf4f64767da2c9fa8332c3495afcb
+  custom:scripting/monoscript/fileName/Chest.cs:  -> a723fccaf24a1183046ec1b5108a0aa3
+  custom:scripting/monoscript/fileName/SlotIndexView.cs:  -> 1e89894a226ab03926dd81b7a240e332
+  custom:scripting/monoscript/fileName/AmountUtility.cs:  -> 6757f707be0c29f80e940c2d8f2a5477
+  custom:scripting/monoscript/fileName/IActionWithSlotContainer.cs:  -> 9e9470c36fcc3a45a64856ad68e472a1
+  custom:scripting/monoscript/fileName/DisplayPanelManager.cs:  -> b2aad51e9feffa1aa6367e1354368245
+  custom:scripting/monoscript/fileName/ItemInfoProbabilityTable.cs:  -> e32caebaa9640259add907fe6241170b
+  custom:scripting/monoscript/fileName/BillboardFX.cs:  -> 4f0ec74064b121f451d80cf400947990
+  custom:scripting/monoscript/fileName/ItemInfoGrid.cs:  -> 3a30d991f26d486d0913aeeea83b673c
+  custom:scripting/monoscript/fileName/PickupBase.cs:  -> edb8a77bb20e2d301ada3d3a2df31c25
+  custom:scripting/monoscript/fileName/DefinitionRestrictionIconItemView.cs:  -> c6a4c2d4caab0d9b6cfac33c9fbd05d1
+  custom:scripting/monoscript/fileName/ICharacter.cs:  -> b7292b8a23ddc9b16424d977e028bb5b
+  custom:scripting/monoscript/fileName/ConfirmationPopUp.cs:  -> b8fef14649876bcb419e66479145e6b1
+  custom:scripting/monoscript/fileName/ItemInfoCategoryNameSorter.cs:  -> c2f1792d488631ef2a88dfb2b3c27eb7
+  custom:scripting/monoscript/fileName/InventoryItemVisualizer.cs:  -> 612ca4c6e53cd474616ea0f3fb921be2
+  custom:scripting/monoscript/fileName/ItemObjectSlot.cs:  -> 0c72f88463390072849ce0c1ee6ef82f
+  custom:scripting/monoscript/fileName/CharacterStats.cs:  -> 57ef9a8fa47723b1bd5937c7f519d3f0
+  custom:scripting/monoscript/fileName/ItemShapeGridUtility.cs:  -> 67854192df01bb3e577cf9962a9d4c01
+  custom:scripting/monoscript/fileName/InventoryDatabaseUtility.cs:  -> 71fd81d888d9cf40a7115421056189c7
+  custom:scripting/monoscript/fileName/ItemSlotSet.cs:  -> 0589518194072f82ecb472fdbc33ce69
+  custom:scripting/monoscript/fileName/SettableActionElement.cs:  -> 55fcea8260502932c64e215ee4884f12
+  custom:scripting/monoscript/fileName/ItemObjectSpawner.cs:  -> 4c3782ccff1fbbeeea219ffeeb32406a
+  custom:scripting/monoscript/fileName/AssignHotbarItemAction.cs:  -> bee814bdd358df14b2ef493cdec2cc3f
+  custom:scripting/monoscript/fileName/DuplicateItemAction.cs:  -> 9c388a834853aa3ec46917c10704945b
+  custom:scripting/monoscript/fileName/Projectile.cs:  -> f74b3b205ca1d3f583a056b7cae928b0
+  custom:scripting/monoscript/fileName/ItemBinding.cs:  -> bf9cf66e848d27b7384fe85a2cafaca7
+  custom:scripting/monoscript/fileName/IViewModuleSelectable.cs:  -> a3c701206a92beef5804543edfbcfc7a
+  custom:scripting/monoscript/fileName/ItemActionPanel.cs:  -> c336c0877d2c1dcf5705c43255323923
+  custom:scripting/monoscript/fileName/SimpleCraftingProcessor.cs:  -> be7759df6d4ea7d3d85e60ad981f87f6
+  custom:scripting/monoscript/fileName/Inventory.cs:  -> 88ac0d4ef39ccffc4204d7d359c7f215
+  custom:scripting/monoscript/fileName/UseItemActionSetAttribute.cs:  -> 4366fd26d816208dd2b07c807fc6d278
+  custom:scripting/monoscript/fileName/RequiredItemDefinitionAttributeCollection.cs:  -> b2752d2b6dea4c200ac1a1f1220c3fa0
+  custom:scripting/monoscript/fileName/QuantityDropItemAction.cs:  -> 3c7a0290e1d25ca52ed285e52247a8b8
+  custom:scripting/monoscript/fileName/GlobalDictionary.cs:  -> 7af54664e4d9c157db41f831d989171a
+  custom:scripting/monoscript/fileName/ShopMenu.cs:  -> e15e4442cfa2e6e975f52b6994b7f308
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerItemActionBindingBase.cs:  -> c375dc90c9bc546e25dcfcc33cb3dfce
+  custom:scripting/monoscript/fileName/StandaloneInput.cs:  -> ffee40ba0d5a755750ad0cf6ec3cda03
+  custom:scripting/monoscript/fileName/ChestInteractable.cs:  -> bcb1b5afe4539a0e7576e40754a641fa
+  custom:scripting/monoscript/fileName/ItemViewDropHandler.cs:  -> 3e4be03eed3a33ca414c13ae1d4951da
+  custom:scripting/monoscript/fileName/InventorySaver.cs:  -> d9497a5995324b0bec271988cb9b20f1
+  custom:scripting/monoscript/fileName/CharacterStatsDisplay.cs:  -> 4446b87be478b75a04e1e66b9ee021e0
+  custom:scripting/monoscript/fileName/TextPopup.cs:  -> 9f5b7e30eaf4955eff27d8f3b776e0ea
+  custom:scripting/monoscript/fileName/InventoryObjectRegister.cs:  -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/PreventSelectableDeselection.cs:  -> c9374003cc9f06f6fccbda037cf661e5
+  custom:scripting/monoscript/fileName/ButtonAudioHandler.cs:  -> 941be3154310ccd26eb12d9fbe85acf9
+  custom:scripting/monoscript/fileName/INetworkInfo.cs:  -> df610a4e170f86e73a8b7094dc0e822b
+  custom:scripting/monoscript/fileName/MultiCurrencyView.cs:  -> 6c9a4d15e14983aa6a5035ae883beae8
+  custom:scripting/monoscript/fileName/ShopGeneric.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/InventoryGridIndexData.cs:  -> 50f791ee4b19e800361b31287c3c8dc4
+  custom:scripting/monoscript/fileName/ColorAmountItemView.cs:  -> 983d45e3b1a9db68a831602f9bd66664
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerBase.cs:  -> 9adfa176c24a16725a001132a9bbccb5
+  custom:scripting/monoscript/fileName/RemoveItemAction.cs:  -> e60190133d676ec6cb9af2e22f1a2d96
+  custom:scripting/monoscript/fileName/InventorySystemRegister.cs:  -> 28c55770e1abcc93c0ccb42fb218ea96
+  custom:scripting/monoscript/fileName/GridNavigatorBase.cs:  -> 6bc35ff8823e088df3f1501884587b47
+  custom:scripting/monoscript/fileName/ItemShapeGrid.cs:  -> 9c1764de153d5055c093b1863f4edc46
+  custom:scripting/monoscript/fileName/CurrencyExchangeRate.cs:  -> 847ba1b90eab4069855c45d74a33951f
+  custom:scripting/monoscript/fileName/ItemSlotsItemView.cs:  -> dd8f8939574387d2a6b4dc271f86ed47
+  custom:scripting/monoscript/fileName/CameraUtility.cs:  -> 67a60687b8628cdee34332c9804b0779
+  custom:scripting/monoscript/fileName/CategoryAttributeViewSet.cs:  -> 5245fe759c5a5cc737f2b85723212b14
+  custom:scripting/monoscript/fileName/IInteractor.cs:  -> c088e9b2c79b8aecc3f33668e39e8bb1
+  custom:scripting/monoscript/fileName/EventSystemManager.cs:  -> b6b91c7bbf8ff8901a6b22677c5e71ff
+  custom:scripting/monoscript/fileName/ItemVisualizerBase.cs:  -> 53694d3952a30a1ce77c566020335aac
+  custom:scripting/monoscript/fileName/SaveSystemManager.cs:  -> 098af356471f3cd4490bfad41078946f
+  custom:scripting/monoscript/fileName/EventSystemIdentifier.cs:  -> 504c671d826d2f5f81e98afbd93ebe9c
+  custom:scripting/monoscript/fileName/ItemViewSlotCursorManager.cs:  -> 4dbf5a4ba3aea9c25ae87eed6bb51428
+  custom:scripting/monoscript/fileName/CraftingTabData.cs:  -> 985bb1dce1bd2c8b2c23cfe666c78b5e
+  custom:scripting/monoscript/fileName/Shop.cs:  -> dbd41a092d7ff6924c51e7b8d29ed19e
+  custom:scripting/monoscript/fileName/InventoryGridSaver.cs:  -> b44eea6a7456145c0fd17269ed122e1c
+  custom:scripting/monoscript/fileName/HpMonitor.cs:  -> ee0eb965cfda847e7f95eea0e137cbc0
+  custom:scripting/monoscript/fileName/InventorySearchFilter.cs:  -> ccfc154453a4ffbe03e96e6eea10dfc7
+  custom:scripting/monoscript/fileName/SimpleCraftingProcessorWithCurrency.cs:  -> 120f0ee4b0d50cd26b00f9326fb756d2
+  custom:scripting/monoscript/fileName/SaveMetaDataCreator.cs:  -> b19b90e5daa94748cce91343beec2323
+  custom:scripting/monoscript/fileName/DemoOpenItemAction.cs:  -> 37633968eea6b2e604c537b5a75400e3
+  custom:scripting/monoscript/fileName/ScrollbarWithButtons.cs:  -> 75919f436d885a0355bba844a57634ce
+  custom:scripting/monoscript/fileName/CharacterRotator.cs:  -> 826d227b1a60bd79703918655d561f06
+  custom:scripting/monoscript/fileName/ItemID.cs:  -> 36c8dcf90f3340c53e2866d1ac9ab746
+  custom:scripting/monoscript/fileName/ItemDropper.cs:  -> 35a1e4b4789154b78826acc5915a3ff2
+  custom:scripting/monoscript/fileName/InventoryTabData.cs:  -> 2727a95263acec31d056ab72b41dc892
+  custom:scripting/monoscript/fileName/TextControl.cs:  -> 8cc5e5879d7f2c2c5d2c3959d1d72ec9
+  custom:scripting/monoscript/fileName/StorageMenuOpener.cs:  -> c9f2ba8ad8153b0d48ea6cefb4928279
+  custom:scripting/monoscript/fileName/UpgradeMenu.cs:  -> 689293f481f7268a425ca190add43080
+  custom:scripting/monoscript/fileName/ItemViewSlotDropHandlerBinding.cs:  -> 7d5ef3887859d4fbf2a03c8e6aae4bf7
+  custom:scripting/monoscript/fileName/GridGeneric.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerSaver.cs:  -> 696a737af618ab6bdfb1c783102b1696
+  custom:scripting/monoscript/fileName/FixedScale.cs:  -> 6fcb6d1486904cdff701a7e0923b180d
+  custom:scripting/monoscript/fileName/CharacterCamera.cs:  -> a2a44fca209cc04acdcb16493a03211d
+  custom:scripting/monoscript/fileName/InventoryPickup.cs:  -> 4dc608ac93b89940d6a154af7b75d5d0
+  custom:scripting/monoscript/fileName/VirtualJoystick.cs:  -> ff1f887ccab193b5882dc051cb54eac5
+  custom:scripting/monoscript/fileName/ObjectPool.cs:  -> 8af6b0b3c4234cc9899b81aeacc87069
+  custom:scripting/monoscript/fileName/ItemActionWithConfirmationPopUp.cs:  -> 3ca9656491e36d04b594a504030d8b29
+  custom:scripting/monoscript/fileName/IItemRestriction.cs:  -> 818cc49b009632bca4aff058d2b5c1e5
+  custom:scripting/monoscript/fileName/FloatValueAttributeView.cs:  -> a8a367f9c2ac7ff648041b9885084d12
+  custom:scripting/monoscript/fileName/CraftingRecipeWithCurrency.cs:  -> 4ed059b671a401d1b261573956d82a18
+  custom:scripting/monoscript/fileName/ItemViewSlotContainerIndexedActionsHandler.cs:  -> d010cd50edb40b2d85ddeacb8faa07f7
+  custom:scripting/monoscript/fileName/ItemCategoryAmount.cs:  -> a4d642a91949eb757306a4e764f5eee6
+  custom:scripting/monoscript/fileName/ItemCollectionGroup.cs:  -> ec2d9dc09a3ae7d67715b8d7e66ff1c9
+  custom:scripting/monoscript/fileName/AutomaticProjectileSpawner.cs:  -> 83dda2cfceac91012f85b1b42d32adb7
+  custom:scripting/monoscript/fileName/ObjectPoolBaseInspector.cs:  -> 2b6d1db16e929823bbfafcd6fa321218
+  custom:scripting/monoscript/fileName/ItemViewModule.cs:  -> d240024c253b3024eea304a212a21ea9
+  custom:scripting/monoscript/fileName/GridEventSystem.cs:  -> 9b993ecf19b18eb049355f4b9367ea41
+  custom:scripting/monoscript/fileName/SaveView.cs:  -> add6b56547d16489f22cd00fce93c5f2
+  custom:scripting/monoscript/fileName/ItemCategoryAttributeNameBinding.cs:  -> 8b796d9441369bd325a54d3d96f99e5f
+  custom:scripting/monoscript/fileName/AsyncFuncActionsPanelInt.cs:  -> 8e92349258259551adda90b9ca74b6f3
+  custom:scripting/monoscript/fileName/IShop.cs:  -> 0987ed306d30c756545dbd631e0f1020
+  custom:scripting/monoscript/fileName/AttributeInfo.cs:  -> ed1e279f0df485dbd763517332d986f0
+  custom:scripting/monoscript/fileName/CurrencyOwnerGeneric.cs:  -> 6a67d7d4bb873334bf8cdc495952bf93
+  custom:scripting/monoscript/fileName/ViewDrawer.cs:  -> e546046f3e58de448073473428ce843c
+  custom:scripting/monoscript/fileName/ItemDescription.cs:  -> 78a73502c121a07f4a987f4681966462
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerItemActionBinding.cs:  -> e2da664cf063bc619a5173c8e6214adb
+  custom:scripting/monoscript/fileName/IObjectAmount.cs:  -> 790d30e110fad396c1c6eecb8b12ca4c
+  custom:scripting/monoscript/fileName/ItemInfoItemCollectionAndCategoryFilter.cs:  -> d09295890023805eca6f7c8beba7b7ea
+  custom:scripting/monoscript/fileName/SaveMetaData.cs:  -> f8f27d9f7c65433a25e3c34daef5be59
+  custom:scripting/monoscript/fileName/ItemSlotCollection.cs:  -> 6b8a860797179de35c5c5adf8d34f966
+  custom:scripting/monoscript/fileName/SimpleInput.cs:  -> 6981e3ddaab485a850c38ce25fb5a440
+  custom:scripting/monoscript/fileName/ItemViewDropContainerCanAddCondition.cs:  -> 4ea18bb9407ea95256401d06de5cee6b
+  custom:scripting/monoscript/fileName/AudioClipSet.cs:  -> 2a5876e586e1e963dc8a0e2d171552e6
+  custom:scripting/monoscript/fileName/AmountComparisonItemView.cs:  -> 481830938949d1ca4b89ddcd2eccf483
+  custom:scripting/monoscript/fileName/ItemViewSlotMoveCursor.cs:  -> 579d7d1dccdc3c4d746e6e06ded362a0
+  custom:scripting/monoscript/fileName/ItemDescriptionBase.cs:  -> fe9340fd9be7272babbabd40249677b5
+  custom:scripting/monoscript/fileName/UnityInputBuilder.cs:  -> 0eafc1f2f8ae6a41bc306cc1a5f2eb8b
+  custom:scripting/monoscript/fileName/ValueToColorItemView.cs:  -> 9ec82975c500b731f4130ce5334d748d
+  custom:scripting/monoscript/fileName/CategoryRecipeViewSet.cs:  -> 69177fce422b535d257d254d09ffe8b2
+  custom:scripting/monoscript/fileName/RequiredItemAttributeCollection.cs:  -> 6a45f265a3509671c2c02acd9fe536c6
+  custom:scripting/monoscript/fileName/PlayerInput.cs:  -> 9096a08038bedc7332664c9fdbaa7c09
+  custom:scripting/monoscript/fileName/ICamera.cs:  -> 64b9e95bda5b1b583c0d21bd366a7631
+  custom:scripting/monoscript/fileName/ItemDefinitionAmounts.cs:  -> 22567a82d853ffa7293ce86bb4f25e14
+  custom:scripting/monoscript/fileName/ICharacterMover.cs:  -> 6012aad0070a68912d4b0b5b606c0d68
+  custom:scripting/monoscript/fileName/ItemCollectionStackAmountRestriction.cs:  -> 90679d80738ec66a838de68cbde071b3
+  custom:scripting/monoscript/fileName/SelectImageView.cs:  -> 23b5074c97f0c5e3e2a905c190a03009
+  custom:scripting/monoscript/fileName/InspectorDrawer.cs:  -> 2a09cf4fb728079b10bf0ca5a572ffd1
+  custom:scripting/monoscript/fileName/CooldownItemView.cs:  -> 907fd0de7ed0b5711d85796614d3906e
+  custom:scripting/monoscript/fileName/DisplayPanelCloser.cs:  -> a86a3006ea2308e7b33ea89207f0b311
+  custom:scripting/monoscript/fileName/AttributeBase.cs:  -> 2341d5e71c206f64eff94aaede707c2d
+  custom:scripting/monoscript/fileName/LockedChest.cs:  -> 8fc3e46903236646218f93b9a3c6c872
+  custom:scripting/monoscript/fileName/IDatabaseSwitcher.cs:  -> 5d53b695745991ff23bc0f7efc276dac
+  custom:scripting/monoscript/fileName/ItemHotbarHandler.cs:  -> 29b4be3e3955bd49e564b7c5dc28ff30
+  custom:scripting/monoscript/fileName/ItemInfoItemCollectionFilter.cs:  -> 572da9324d987de98d691bb8f4bd1c69
+  custom:scripting/monoscript/fileName/DestroyOnStart.cs:  -> fc04b7d58043ebc8ae568483da359645
+  custom:scripting/monoscript/fileName/AdditionalUnitOptions.cs:  -> 1c76992e48f06649fd6e5eed7401fd8b
+  custom:scripting/monoscript/fileName/InventoryGrid.cs:  -> dd7a574caa6b658dbe3eecf5062fcde7
+  custom:scripting/monoscript/fileName/ChestMenu.cs:  -> 6e362250bd241e7ffa2ec9e1f0bd8a16
+  custom:scripting/monoscript/fileName/ActionButton.cs:  -> c7f5cf1a2b86b46b1cbfbb613b616de0
+  custom:scripting/monoscript/fileName/InventorySystemFactory.cs:  -> 40e869418046c983302ff78e7db52021
+  custom:scripting/monoscript/fileName/Character.cs:  -> 9bf111c30b2732ddf3600c90729675b8
+  custom:scripting/monoscript/fileName/ItemViewSlotContainerDescriptionBinding.cs:  -> 19c5fa1aa9ff5cffa2711f751a2848aa
+  custom:scripting/monoscript/fileName/VirtualControl.cs:  -> ecae66a4ff94f68fde22bd6a583d30e8
+  custom:scripting/monoscript/fileName/InspectorBase.cs:  -> 3308bd0b9679e9226f64f8f73226d6a7
+  custom:scripting/monoscript/fileName/AttributeBinding.cs:  -> 55752cfa8b317f32d7ca301a8c26229e
+  custom:scripting/monoscript/fileName/GridBinding.cs:  -> 158509f6fa33433a0cacb087c0a90b22
+  custom:scripting/monoscript/fileName/InspectorStyles.cs:  -> e9cdea99fcabd46f0a758f679b8b505f
+  custom:scripting/monoscript/fileName/IItemObjectBehaviourHandler.cs:  -> faa2ebfd0265b6a3a65551fed0628c5c
+  custom:scripting/monoscript/fileName/InventoryGridIndexer.cs:  -> 418d7d76d2da0e25951ba0f9bb98af49
+  custom:scripting/monoscript/fileName/InventoryIdentifierRegister.cs:  -> 31572503afb4458d2f7081c5ff5259f5
+  custom:scripting/monoscript/fileName/RecipePanel.cs:  -> e3950d187f7de94de13e29b8f3dcc5b5
+  custom:scripting/monoscript/fileName/InventoryGridSorterDropDown.cs:  -> 74bb9c237687eeef72f224e77aaebeed
+  custom:scripting/monoscript/fileName/LayoutGroupNavigation.cs:  -> 518c6d259ca02544ac2fd1f08b83f073
+  custom:scripting/monoscript/fileName/VirtualInput.cs:  -> 5ee8d270a7fd6f8b164d9af4f11c6dfc
+  custom:scripting/monoscript/fileName/InventoryMonitor.cs:  -> c66df1ae185c39143214def3a073b02f
+  custom:scripting/monoscript/fileName/CurrencyView.cs:  -> d1b5ab9576c8ddd25497cbf5efd649fa
+  custom:scripting/monoscript/fileName/EquippedSelectItemView.cs:  -> 9c385e40f2c0d9f72c750c6f11e3f3b3
+  custom:scripting/monoscript/fileName/IInventorySystemDatabase.cs:  -> 6192b2fd2bb1f8fe753f699c0607d265
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainer.cs:  -> 4e9f15982d58cbc98de5556ee2101514
+  custom:scripting/monoscript/fileName/ItemDefinitionAmountsWithCategory.cs:  -> 19c451cb4786f70917e12a9f72c4d6f0
+  custom:scripting/monoscript/fileName/IEnumerableHelper.cs:  -> 982fef94b6e25b1cbbe27c8cc7e397fe
+  custom:scripting/monoscript/fileName/DynamicInventorySizeInventoryGridBinding.cs:  -> 225099ae292448c2a90965909248ad4c
+  custom:scripting/monoscript/fileName/GridPanel.cs:  -> 16f178b777af38d348d01682e3ff86b3
+  custom:scripting/monoscript/fileName/TextPanel.cs:  -> 266da4c24f83883daf5a71bda381707a
+  custom:scripting/monoscript/fileName/ItemAmounts.cs:  -> 8e101b42faa848549ad4cbf9c4544be2
+  custom:scripting/monoscript/fileName/ItemShapeGridData.cs:  -> 18ad741cc429bab66ae6b715293d834f
+  custom:scripting/monoscript/fileName/ItemRestrictionObject.cs:  -> 710dc0236a9a2c5063c808fde1bcbf65
+  custom:scripting/monoscript/fileName/InputEvent.cs:  -> 84f0882eb8894e7e4903eb939434244b
+  custom:scripting/monoscript/fileName/InventorySystemManagerItemSaver.cs:  -> 02a9b867a9edb83cd38f2c7aaf068c1e
+  custom:scripting/monoscript/fileName/CategoryItemActionSet.cs:  -> 0a99eb397619cec3eade6145e58e6b14
+  custom:scripting/monoscript/fileName/DropHoverIconPreviewItemView.cs:  -> d77062242aa605cd29a4db767f485a2d
+  custom:scripting/monoscript/fileName/IInteractorWithInventory.cs:  -> 3215c52ca2fcd0be0084144ddd663c16
+  custom:scripting/monoscript/fileName/CharacterNavMeshMover.cs:  -> da850b698470891bb9548f9bfae4c654
+  custom:scripting/monoscript/fileName/GateDoor.cs:  -> fb0430b8768ebf5d462699588651fcab
+  custom:scripting/monoscript/fileName/ItemObjectBehaviourLogItem.cs:  -> 40720b23886b35d3752e662d54070cb9
+  custom:scripting/monoscript/fileName/DomainResetter.cs:  -> 676727fb9bac14e9fe50c1cae479cb85
+  custom:scripting/monoscript/fileName/AttributeItemView.cs:  -> d6e428b49d84c965458c0af3ecc33c2f
+  custom:scripting/monoscript/fileName/ItemInfoNameSorter.cs:  -> db486954ba5cad39ef6719870d22bbd7
+  custom:scripting/monoscript/fileName/LayerMaskExtension.cs:  -> 7564519eabc97e2ab51837f00e7f6c54
+  custom:scripting/monoscript/fileName/CurrencyOwnerSaver.cs:  -> 69e467d5612cfc998d248fcd1a89fcbb
+  custom:scripting/monoscript/fileName/ItemInfoMultiFilterSorter.cs:  -> 08547831d963f14444b9456de173553f
+  custom:scripting/monoscript/fileName/ItemViewSlotDefinitionRestriction.cs:  -> 6837217f8bdaa1b68d70953cc7f24971
+  custom:scripting/monoscript/fileName/ItemDefinitionAttributeCollection.cs:  -> d5a33085d914968fd5aec502475dd366
+  custom:scripting/monoscript/fileName/ItemCategoryWithString.cs:  -> 9d7ef96d4111396c5952c93a0d160009
+  custom:scripting/monoscript/fileName/AttributeViewModule.cs:  -> f5a9a9d002c1fc5b2862691023c9eb4a
+  custom:scripting/monoscript/fileName/CategoryItemViewSet.cs:  -> 6592557ddc422ae687af35e0f6e04892
+  custom:scripting/monoscript/fileName/GridNavigator.cs:  -> 3b9e3b78aa3d3e59137061857f067a56
+  custom:scripting/monoscript/fileName/ShopAddRemoveBinding.cs:  -> a8075bd8aca1ee3a3b5cda9961373ff4
+  custom:scripting/monoscript/fileName/ItemViewSlotContainerNamedItemActionHandler.cs:  -> 3e3c46c6b74abdf33da2f9f997872750
+  custom:scripting/monoscript/fileName/ItemInfoAttributeValueSorter.cs:  -> d7adf5865eeab9eda22908c02f603612
+  custom:scripting/monoscript/fileName/ItemViewShapeDropAction.cs:  -> e94e285196a5edd6f24b4e600265936a
+  custom:scripting/monoscript/fileName/DebugItemObjectAction.cs:  -> 04bbff3eb4f07ade6cf0ef290b6f96b1
+  custom:scripting/monoscript/fileName/DemoCharacterEquipper.cs:  -> 3b3afeb2f9585f5f2d8a819dd0450f74
+  custom:scripting/monoscript/fileName/AudioConfigInspector.cs:  -> 23502b63d3717076c8922e405013b672
+  custom:scripting/monoscript/fileName/InventorySystemManager.cs:  -> 3d1410eea9a6c3be71978b2a9e50ba41
+  custom:scripting/monoscript/fileName/ItemObjectVisualizer.cs:  -> 9367234d6cc912dc7eea2bd6684b243d
+  custom:scripting/monoscript/fileName/IInventory.cs:  -> 3adc62fa688c4696d67f7fda8b9301f3
+  custom:scripting/monoscript/fileName/DynamicInventorySize.cs:  -> 4e9ee04a40c3f786b61e3d322bf47708
+  custom:scripting/monoscript/fileName/ItemUser.cs:  -> 83221539b3868475085bc7107e6a3581
+  custom:scripting/monoscript/fileName/IObjectWithID.cs:  -> 97b62cb038de0b000e2f8facc584831b
+  custom:scripting/monoscript/fileName/ItemActionWithAsyncFuncActionPanel.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ItemShapeSelectedItemView.cs:  -> 8166571d802d6e9ef148ac5cccff0208
+  custom:scripting/monoscript/fileName/ItemSlotCollectionView.cs:  -> b96d843e87db50d27cb200ad0beb29f2
+  custom:scripting/monoscript/fileName/ItemOverflowActionWithItemAction.cs:  -> 7e242f1f4857741cda68ea87645e4485
+  custom:scripting/monoscript/fileName/BasicSaveMetaDataCreator.cs:  -> 4607241158fb8f481c7c786d2a4f3c1b
+  custom:scripting/monoscript/fileName/PartOfOtherContainerItemView.cs:  -> 688f2323face5e2291b8a8a940eab445
+  custom:scripting/monoscript/fileName/TabToggle.cs:  -> a0c734e79726f077522cd90acee04e77
+  custom:scripting/monoscript/fileName/Currency.cs:  -> eb53618fa52503ceec1aeb9521bf40ac
+  custom:scripting/monoscript/fileName/AttributeView.cs:  -> e73cd103d893e87a62d2788629364118
+  custom:scripting/monoscript/fileName/CustomAttributes.cs:  -> 1c446a03dfd53f5faea082b16c776d13
+  custom:scripting/monoscript/fileName/UnAssignHotbarItemAction.cs:  -> fcab3d24b852d4d6c4c419ba5f4d0e4b
+  custom:scripting/monoscript/fileName/OpenOtherItemViewSlotContainerItemAction.cs:  -> 3081d9efe182daca797e3759366336ed
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerItemAction.cs:  -> 727e36be1fce9a81613c410b397a1051
+  custom:scripting/monoscript/fileName/ItemViewDropNullItemCondition.cs:  -> 343ea78e7d44fdbd93007bdced7d6bf6
+  custom:scripting/monoscript/fileName/IDamageable.cs:  -> 61019c27a80c66b2ace6c36922268007
+  custom:scripting/monoscript/fileName/GraphicRaycasterTarget.cs:  -> f50d7ebb6fa4c38d2c5578c8dc12d2b4
+  custom:scripting/monoscript/fileName/ItemStack.cs:  -> 2eb7d692657538cdddf5f59c20417a4a
+  custom:scripting/monoscript/fileName/SelectView.cs:  -> 09f9db35318d8178ca84bf92fff48cb6
+  custom:scripting/monoscript/fileName/ICategoryElement.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ItemInfo.cs:  -> 76718d1d590255e6d2f4c9187eeab79c
+  custom:scripting/monoscript/fileName/DisplayPanelBinding.cs:  -> 0ba0efdc4766787f1a2ede3ff57c730c
+  custom:scripting/monoscript/fileName/ValueToSpriteItemView.cs:  -> b1f51f268586b9b8361134b4ecb9033e
+  custom:scripting/monoscript/fileName/UsableEquippedItemsHandler.cs:  -> 85e9b4cadf1162d7769acf5c0e065335
+  custom:scripting/monoscript/fileName/IItemViewSlotsContainer.cs:  -> 3d51bb6cb2e497cf8be51293052bf86f
+  custom:scripting/monoscript/fileName/InventorySystemDatabase.cs:  -> 0c5e1fba608b65175ee1a9a6e3248498
+  custom:scripting/monoscript/fileName/DropItemAction.cs:  -> 93f251558592d9652b7a0c5956f009ac
+  custom:scripting/monoscript/fileName/ItemViewDropContainerHasNameCondition.cs:  -> da2905930581ea922a5b52915dc2e0a7
+  custom:scripting/monoscript/fileName/ItemAmountsWithCategory.cs:  -> 33b900c53699a5e558775ca386fca324
+  custom:scripting/monoscript/fileName/ItemObject.cs:  -> f0cd4ba3725667cf74bfca3de86a4997
+  custom:scripting/monoscript/fileName/SkinnedMeshStitcher.cs:  -> 4de292f9fe9c8501d49db2ad95e33584
+  custom:scripting/monoscript/fileName/ItemShapeItemView.cs:  -> c95f19e67c1bac0d5c034ceaa738aa8e
+  custom:scripting/monoscript/fileName/ConfirmCancelPanel.cs:  -> 50fb06effb56b7b8e0eda2daa9210da2
+  custom:scripting/monoscript/fileName/ItemViewDropSameContainerCondition.cs:  -> 6f9188de38f74f81cdb950524a41ff89
+  custom:scripting/monoscript/fileName/PanelOpener.cs:  -> 6fe619a2fe9cbe42b2c1a8b309bd6256
+  custom:scripting/monoscript/fileName/ItemCollection.cs:  -> bda5430197803ae7eb013472e5ffee3f
+  custom:scripting/monoscript/fileName/ItemViewSlotPanelToTooltip.cs:  -> 1613e22b5bb6a52220a8a6f7d7ce6d31
+  custom:scripting/monoscript/fileName/SettableActionPanel.cs:  -> d824fb0aed2bb2d8a3be25ee14ba2b7d
+  custom:scripting/monoscript/fileName/DynamicItemCategory.cs:  -> 8f456ac486aa304b6946d4ebc9ccadf9
+  custom:scripting/monoscript/fileName/ObjectInspector.cs:  -> 8d41c5d3709464017b2905a5ba2efbd6
+  custom:scripting/monoscript/fileName/GameObjectSaver.cs:  -> 76e454a1529de5adc8cab817ba108d06
+  custom:scripting/monoscript/fileName/CurrencyAmount.cs:  -> 4f9c535cee3a3c9379ef97926295c3fc
+  custom:scripting/monoscript/fileName/ItemDefinition.cs:  -> 50a82efc41023a44af43e343cec13a7a
+  custom:scripting/monoscript/fileName/RandomItemDropper.cs:  -> 1cd08677d646d9a3eb4c5a41d09dfe60
+  custom:scripting/monoscript/fileName/ButtonAudio.cs:  -> 1dcc7023f3754253750302637f41722a
+  custom:scripting/monoscript/fileName/PlayerInputProxy.cs:  -> ef1f93e99447083f828dc5c3df982c49
+  custom:scripting/monoscript/fileName/DemoConsumeItemAction.cs:  -> e8e9c564a6e0d24a3c5ba5fb287c3495
+  custom:scripting/monoscript/fileName/ShopInt.cs:  -> 09a6b55377c6694dbbad375fab2a74d0
+  custom:scripting/monoscript/fileName/ItemShapeGridController.cs:  -> 4fb3c5357d1090e43edc4e1b328db706
+  custom:scripting/monoscript/fileName/CurrencyOwnerMonitor.cs:  -> cd799bdb75985ab276b6110df1609141
+  custom:scripting/monoscript/fileName/DisplayPanelSelector.cs:  -> 758746ce8c33af680f89fe9f46c1d1b8
+  custom:scripting/monoscript/fileName/CraftingCategory.cs:  -> 905be3dedb339a64b31fd2641b246ccb
+  custom:scripting/monoscript/fileName/ItemAmount.cs:  -> 60350aa9a38f958d87ed5d20d890f5f2
+  custom:scripting/monoscript/fileName/InputBase.cs:  -> c25331fccb041d2ab8d28b343561a337
+  custom:scripting/monoscript/fileName/DynamicPanelOwner.cs:  -> 66b08c33bfe0c7d8650786f616695d41
+  custom:scripting/monoscript/fileName/GlobalRegister.cs:  -> c3e6bf53b07481e2434cc212841f5caf
+  custom:scripting/monoscript/fileName/CraftingMenuBase.cs:  -> 1430d5668cabf703f206c7c6f6f8e81e
+  custom:scripting/monoscript/fileName/Item.cs:  -> b2ce25298707bfd14cb6aa8c2c0c6830
+  custom:scripting/monoscript/fileName/ButtonViewSlot.cs:  -> d6d9ee14b882f79adf7d6ca1a2aad47c
+  custom:scripting/monoscript/fileName/InventoryInteractor.cs:  -> eb735380d801248a7603cf8cb20849e8
+  custom:scripting/monoscript/fileName/DisplayPanelManagerRegister.cs:  -> 5c9ea55965aec7c5ab178556cd843ace
+  custom:scripting/monoscript/fileName/EquippedItemView.cs:  -> 47f29ce941712bfe7c870b084ef3e8c9
+  custom:scripting/monoscript/fileName/CurrencyDropper.cs:  -> 5735b0baadd1b4b88fd3f1dc04cc3619
+  custom:scripting/monoscript/fileName/CurrencyCollection.cs:  -> e86a17495a2cb186a95b3033d83af451
+  custom:scripting/monoscript/fileName/ItemTransactionCollection.cs:  -> 9d9cc6272912cb12b03286bab0bbd462
+  custom:scripting/monoscript/fileName/IInteractable.cs:  -> 0212de470c615227609406d82147c39c
+  custom:scripting/monoscript/fileName/IActionWithPanel.cs:  -> 804c43d2f432887e6cab56f0d097808e
+  custom:scripting/monoscript/fileName/CraftingRecipeRegister.cs:  -> d655b6796ef7670cf25cb1e9dbd705db
+  custom:scripting/monoscript/fileName/ItemOverflowAction.cs:  -> 0146e68d167c985583d98389e1b34968
+  custom:scripting/monoscript/fileName/SaveDataInfo.cs:  -> bac72f7cd3a0ff7fcf23678bd419074b
+  custom:scripting/monoscript/fileName/ItemViewSlotCursorManagerRegister.cs:  -> 24e2f049019270628e665f49436dd565
+  custom:scripting/monoscript/fileName/UpgradableItemDescription.cs:  -> 707e8a406b1fc106f859147c768ae200
+  custom:scripting/monoscript/fileName/MenuInteractableBehavior.cs:  -> 60ff73e97adbf5e9c3aea41d4669319b
+  custom:scripting/monoscript/fileName/GridNavigatorWithScrollView.cs:  -> 362bfaf62aeb26989bca16c7ac276974
+  custom:scripting/monoscript/fileName/IntAttributeItemView.cs:  -> 7c7dc2f990051b1092436087dae69837
+  custom:scripting/monoscript/fileName/Dropper.cs:  -> c20758dc1a95617c88601492b6803e23
+  custom:scripting/monoscript/fileName/ItemDefinitionRegister.cs:  -> 9bf5c259d66cb1c746a83d19a6e7a3b6
+  custom:scripting/monoscript/fileName/ItemActionWithQuantityPickerPanel.cs:  -> 6252202a53af71f82d6086062390c9df
+  custom:scripting/monoscript/fileName/ItemCategory.cs:  -> 5663a7390b4cb9adfc07336129cc279d
+  custom:scripting/monoscript/fileName/ActionPanel.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/InventoryPanelBinding.cs:  -> bb019e2702fe14d7bca71f525bbec554
+  custom:scripting/monoscript/fileName/CurrencyItemView.cs:  -> 67a8b28cde64f47691d4c82ad3138d72
+  custom:scripting/monoscript/fileName/ItemViewModuleSelectable.cs:  -> bc7f5d611998f58b8ccae70c16599b9a
+  custom:scripting/monoscript/fileName/ShopMenuOpener.cs:  -> bb3494ebfbf7d200f32c17f35fd43c4e
+  custom:scripting/monoscript/fileName/ProjectileSpawner.cs:  -> 3fc317398a53c46333d327af87c68c44
+  custom:scripting/monoscript/fileName/ValueAttributeView.cs:  -> d1a0be010b7f0babaab6ec70d342b123
+  custom:scripting/monoscript/fileName/ItemObjectBehaviourHandler.cs:  -> 48d5c6f2c9adfb01431e143321a93bbb
+  custom:scripting/monoscript/fileName/AudioManagerModule.cs:  -> d71d79a26612517f3f5a0b6be4fa7331
+  custom:scripting/monoscript/fileName/IEquipper.cs:  -> 90c7a47ab5289f752d2e4c8db148674f
+  custom:scripting/monoscript/fileName/ItemInfoAmountSorter.cs:  -> f2644475ce173f8ca3fdad6f0ff6e44a
+  custom:scripting/monoscript/fileName/SaveGrid.cs:  -> 072310f78bb6e2342a1c1a209bdda815
+  custom:scripting/monoscript/fileName/InventoryIdentifier.cs:  -> bf33bb530718c3c52a56c247b4d90a8d
+  custom:scripting/monoscript/fileName/GroupItemRestriction.cs:  -> b80bfe1e45b418cdbccc2149224c120e
+  custom:scripting/monoscript/fileName/ItemViewDrawer.cs:  -> b29ac5e1d1109c60c787f56287f557ea
+  custom:scripting/monoscript/fileName/InventoryGridTabControlBinding.cs:  -> 85c70ddf4fd3c28b9ad401073806c8ea
+  custom:scripting/monoscript/fileName/AudioMusic.cs:  -> db7e6cee326f464de246c4f702242c18
+  custom:scripting/monoscript/fileName/DemoInventoryDatabaseNames.cs:  -> 09c793e91ebfbb171f0c1364a829c33c
+  custom:scripting/monoscript/fileName/CharacterMover.cs:  -> b386da2a6c9557c511343ea7ae85b9b1
+  custom:scripting/monoscript/fileName/ItemAmountsWithDefinition.cs:  -> e941d909512896f24e3a67341b86c412
+  custom:scripting/monoscript/fileName/IInventorySystemManager.cs:  -> a5f1dfd47d3d15ae8fe6c890aa62a6af
+  custom:scripting/monoscript/fileName/TextComponent.cs:  -> 7c7276ac0d5727ede3a960f22e7e2890
+  custom:scripting/monoscript/fileName/GroupItemRestrictionObject.cs:  -> f471776ad9247f17f67df22e41a480c7
+  custom:scripting/monoscript/fileName/DebugItemAction.cs:  -> 7811b57290adcc23ef4b9363eb699737
+  custom:scripting/monoscript/fileName/DamagePopupSpawner.cs:  -> 26faf411dd29c6e13f60379619e04079
+  custom:scripting/monoscript/fileName/UnityInput.cs:  -> dbc71cc4a7a622710c502e7a29403d89
+  custom:scripting/monoscript/fileName/Rotator.cs:  -> d747a9ade6f73a5915bd487a248600fc
+  custom:scripting/monoscript/fileName/ImportStatus.cs:  -> c59d844a4650241b8b6bd1b0fcf431e4
+  custom:scripting/monoscript/fileName/ItemViewSlotDragHandler.cs:  -> 5656e9614fa44eef4077df5de14ff540
+  custom:scripting/monoscript/fileName/ItemViewDropMoveIndexAction.cs:  -> 7a8e7f25b17c0389e0de072fc7de3285
+  custom:scripting/monoscript/fileName/ItemCategoryAmounts.cs:  -> f03147b92f32e2763e5311e661ab310b
+  custom:scripting/monoscript/fileName/PlayResult.cs:  -> b5384c41ac111a0c20ee8804f69bb093
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerBinding.cs:  -> cf623d742744eda20f1fb93539077f97
+  custom:scripting/monoscript/fileName/ShopBase.cs:  -> 787e82981e30e7b25c497293a69de85b
+  custom:scripting/monoscript/fileName/AttributeCollection.cs:  -> 2ea7fc8b4391d64926f78d4f24ebf5dd
+  custom:scripting/monoscript/fileName/SaveViewDrawer.cs:  -> af5133c5757e14c6b789a1e38e1e3e9f
+  custom:scripting/monoscript/fileName/CurrencyOwner.cs:  -> 24345761c5704c482e09c755cc399d45
+  custom:scripting/monoscript/fileName/NameValueAttributeView.cs:  -> 32d1e1641b620bdb99fdcb002fbba0ac
+  custom:scripting/monoscript/fileName/SchedulerBaseInspector.cs:  -> 00c4a18b6023738bfe024e528e3bc631
+  custom:scripting/monoscript/fileName/ActionElement.cs:  -> 1eb5101eff6bcfe31abbc118ad51abb4
+  custom:scripting/monoscript/fileName/ItemViewDropPlayAudioClip.cs:  -> 0bebb0d6d247bfca2028fe81aa05f14a
+  custom:scripting/monoscript/fileName/StorageMenu.cs:  -> 3a9cfa4be605e1333382eb88bd0f841f
+  custom:scripting/monoscript/fileName/ItemHotbar.cs:  -> b1dd02209e1f4d393b9ec8aa73dfa38e
+  custom:scripting/monoscript/fileName/ItemViewSlotsContainerCategoryItemActionSetBinding.cs:  -> 3b3c62b838dfd7eacbec33c9bdf4cd82
+  custom:scripting/monoscript/fileName/AdjustItemAmountInputField.cs:  -> dc759c534e2f2deb71533cdba3d27713
+  custom:scripting/monoscript/fileName/IDAmountSaveData.cs:  -> 0c8c65e645ddf1d14219329d1251e2f7
+  custom:scripting/monoscript/fileName/RangeAttack.cs:  -> fbfbf05089bbf643934905865f7c6e13
+  custom:scripting/monoscript/fileName/InteractableBehavior.cs:  -> df11512309456f947b8fdb9216f551a3
+  custom:scripting/monoscript/fileName/Flash.cs:  -> bc4e5133e3d94607ffe07c371f0dcc8d
+  custom:scripting/monoscript/fileName/CraftingMenu.cs:  -> 29b4f4c3651613967f6934f141b17552
+  custom:scripting/monoscript/fileName/UnityInputInspector.cs:  -> 0dce0556b1462363f4e6635156f220d5
+  custom:scripting/monoscript/fileName/VirtualButton.cs:  -> 2257da2e9924cbdb0a1045cb1ab6f28b
+  custom:scripting/monoscript/fileName/Scheduler.cs:  -> b711313c3799dd72331d27095ffb018e
+  custom:scripting/monoscript/fileName/PlayerCharacter.cs:  -> 84df9e6cd31346f3c9e4b502d662faf8
+  custom:scripting/monoscript/fileName/EnemyCharacter.cs:  -> 6b0ea7c6c6f9291115f361df5ff50d85
+  custom:scripting/monoscript/fileName/ItemDescriptionPanelBinding.cs:  -> 9f8328919b6345f525c8e53772fca11a
+  custom:scripting/monoscript/fileName/RecipeAttributes.cs:  -> ff8a8b02520da6242e5abb3e2bef841a
+  custom:scripting/monoscript/fileName/PlayerInputInspector.cs:  -> 9510eee46724473a2b41b213ddb847b1
+  custom:scripting/monoscript/fileName/CharacterAnimator.cs:  -> fd4433c953b13f51c93809d754ea37e0
+  custom:scripting/monoscript/fileName/CategoryRestrictionIconItemView.cs:  -> b5162db9d417a3439540e3b05f63e3dd
+  custom:scripting/monoscript/fileName/SaveData.cs:  -> ce266fd9e409a4b403890595f6bfe79b
+  custom:scripting/monoscript/fileName/AudioClipInfo.cs:  -> f2813ad077d20802b616e39e16ac9728
+  custom:scripting/monoscript/fileName/ItemShapeGridDataSaver.cs:  -> f2d4b3a2cfe2112c9ec9fec9d38ec581
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.323 seconds
+Refreshing native plugins compatible for Editor in 9.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 14.822 seconds
+Domain Reload Profiling: 16140ms
+	BeginReloadAssembly (309ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (200ms)
+	LoadAllAssembliesAndSetupDomain (699ms)
+		LoadAssemblies (694ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (14823ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (12938ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (172ms)
+			ProcessInitializeOnLoadAttributes (11749ms)
+			ProcessInitializeOnLoadMethodAttributes (968ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 10.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3774 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.2 MB). Loaded Objects now: 4246.
+Memory consumption went from 148.3 MB to 147.0 MB.
+Total: 13.478400 ms (FindLiveObjects: 0.392200 ms CreateObjectMapping: 0.283400 ms MarkObjects: 12.212900 ms  DeleteObjects: 0.584500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.967 seconds
+Refreshing native plugins compatible for Editor in 5.93 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.824 seconds
+Domain Reload Profiling: 2784ms
+	BeginReloadAssembly (298ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (477ms)
+		LoadAssemblies (493ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (108ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1824ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1069ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (542ms)
+			ProcessInitializeOnLoadMethodAttributes (408ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3774 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.2 MB). Loaded Objects now: 4251.
+Memory consumption went from 150.3 MB to 149.1 MB.
+Total: 6.808200 ms (FindLiveObjects: 0.274100 ms CreateObjectMapping: 0.217600 ms MarkObjects: 5.781600 ms  DeleteObjects: 0.534100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 339.960117 seconds.
+  path: Assets/Opsive/UltimateInventorySystem/UIDesignerSchemas
+  artifactKey: Guid(a1b057ba227179942a2f362c6b379aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Opsive/UltimateInventorySystem/UIDesignerSchemas using Guid(a1b057ba227179942a2f362c6b379aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8e14deb333feec053f01c82acfb9b4') in 0.002098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
